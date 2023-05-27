@@ -1,0 +1,80 @@
+
+/* .colos {background-color: #dcdde1;
+    background-color: #f5f6fa;
+    background-color: #2f3640;
+    background-color: #303952;
+    background-color: #2f3542;
+    background-color: #3742fa;
+ background-color: #0652DD;
+ background-color: #0984e3;
+ background-color: #1e90ff;
+ background-color: #00a8ff;
+ background-color: #18dcff;
+} */
+.nav-outer{
+    /* border: 1px solid #222B45; */
+    /* background-color: transparent; */
+    /* background-color:  #303952; */
+    background-color: #fbfcff;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: center;
+    justify-content: space-evenly;
+    /* position:relative */
+}
+
+/* .logo-box{
+  font-size: 1.8rem;
+  border: 1px solid #04d1f5;
+  color: #04d1f5;
+} */
+
+ul {
+    position: sticky;
+    background-color:#8caafd ;
+    /* background-color:#464c5c ; */
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    list-style-type: none;
+    /* border: 1px solid #04d1f5; */
+    border-top: 3px solid  #182035;
+    /* border-left: 4px solid  #182035; */
+    border-bottom: 3px solid  #e8e8eb;
+    /* border-right: 4px solid  #e8e8eb; */
+    padding: 0.5rem;
+    border-radius: 10px;
+    backdrop-filter: blur(25px);
+    -webkit-backdrop-filter: blur(25px);
+    
+}
+ul li{
+    margin: 0rem 0.2rem;
+    font-size: 1.5rem;
+    padding: 0.5rem 2rem;
+    /* color: #1148CC; */
+    color: #88a8ff;
+}
+
+.Dark-light-mode{
+ padding: 0.6rem 0.8rem;
+ /* border: 1px solid rgb(250, 250, 252); */
+ border-radius: 50px;
+ box-shadow: rgb(197, 195, 195) 0px 0.5px 4px 0px;
+}
+.DM-img{
+   font-size: 1.4rem;
+   color: #88a8ff;
+
+}
+.LM-img{
+   font-size: 1.4rem;
+   color: #88a8ff;
+
+}
+.DLM-btn{
+    border: none;
+    background-color: transparent;
+    outline: none;
+}
