@@ -3,8 +3,10 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## This project is my personal portfolio website .
+
 #This project is created on  react (Create React App)
-#This that I had used for this project are given below :
+
+## Thinks that  I had used for this project are given below :
 
 .React.js
 .Jsx
