@@ -8,11 +8,11 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 ## Thinks that  I had used for this project are given below :
 
-.React.js
-.Jsx
-.Cs3
-.Css Media Query
-.Mock data APIs for skill Cards and project Cards 
+# React.js
+# Jsx
+# Cs3
+# Css Media Query
+# Mock data APIs for skill Cards and project Cards 
 
 # this project have following components/pages 
 #Navigatio
