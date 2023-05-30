@@ -47,4 +47,4 @@ Font awesome cdn for Icons --
 .Contact image |
 
 #Footer --
-.text
+.Text
