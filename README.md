@@ -21,29 +21,30 @@ Mock data APIs for skill Cards and project Cards --
 Font awesome cdn for Icons --
 
 # this project have following components/pages 
-#Navigatio
+
+#Navigatio --
 .Link icones
 
-#Home
-.Intro text
-.Text animation
-.Intro image
+#Home --
+.Intro text |
+.Text animation |
+.Intro image |
 
-#About
-.About text
-.About image
-.Resume (Downlodable)
+#About --
+.About text |
+.About image |
+.Resume (Downlodable) |
 
-#Skills
-.Skill cards
-.Skill component image
+#Skills --
+.Skill cards |
+.Skill component image |
 
-#Projects
-.Project Cards
+#Projects --
+.Project Cards 
 
-#Contact
-.Contact form 
-.Contact image
+#Contact --
+.Contact form  |
+.Contact image |
 
-#Footer
+#Footer --
 .text
