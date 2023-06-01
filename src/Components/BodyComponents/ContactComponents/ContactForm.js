@@ -3,8 +3,8 @@ import ContactMail from "../../../Assets/Component_images/ContactMail.png"
 
 const Contact = ()=>{
     return(<>
-        <div className="contact-outer" id="contact">
-            <div className="contact-inner">
+        <div className="contact-outer" id="contact" >
+            <div className="contact-inner" >
                 <form action="" className="form">
             <h1 className="form-heding">Send Your Message </h1>
                     <lable className="lable">Name</lable>
