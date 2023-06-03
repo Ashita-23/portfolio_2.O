@@ -1,5 +1,6 @@
 
 import "./Home.css"
+import "./HomeMedia.css"
 import homeImg from "../../../Assets/Component_images/home_img.png"
 
 
