@@ -1,4 +1,5 @@
 import "./ContactForm.css"
+import "./ContactFormMedia.css"
 import ContactMail from "../../../Assets/Component_images/ContactMail.png"
 
 const Contact = ()=>{
@@ -22,7 +23,7 @@ const Contact = ()=>{
                 </form>
         
                     <figure className="contact-image-outer">
-                        <img src={ContactMail}alt="" className="contact-image" />
+                        <img src={ContactMail} alt="Contact " className="contact-image" />
                     </figure>
                
             </div>
