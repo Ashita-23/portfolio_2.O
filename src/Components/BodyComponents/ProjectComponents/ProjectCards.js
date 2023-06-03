@@ -1,5 +1,6 @@
 
 import "./ProjectCards.css"
+import "./ProjectsCardsMedia.css"
 
 const ProjectCards = ({ProjectHelper}) =>{
     console.log(ProjectHelper)
