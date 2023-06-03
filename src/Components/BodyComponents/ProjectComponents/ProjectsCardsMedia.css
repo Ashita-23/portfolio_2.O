@@ -1,0 +1,169 @@
+@media (min-width:240px) {
+}
+@media (min-width:375px) {
+    .pro-card-outer {
+        height: auto;
+        width: 18rem;
+        /* border: 1px solid red; */
+        /* background-color: rgb(197, 196, 196); */
+        display: flex;
+        padding: 0.5rem 0rem;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        align-items: center;
+        justify-content: space-evenly;
+        background-color: transparent;
+        /* border: 1px solid #3b4053; */
+        margin: 0.5rem;
+        margin-left: 0.9rem;
+      }
+      
+      .pro-img {
+        height: 14rem;
+        width: 16rem;
+        /* border: 1px solid rgb(50, 47, 255); */
+      }
+      
+      .pro-deatil-box {
+        height: 10rem;
+        width: 17rem;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        padding: 0.5rem 0.2rem; 
+        /* align-items: center; */
+        /* justify-content: center; */
+        /* border: 1px solid rgb(164, 9, 202); */
+      }
+      
+      .project-name {
+        padding-top: 0.2rem;
+        font-size: 1.1rem;
+        text-align: center;
+      
+        color: white;
+      }
+      
+      .discreption {
+        padding: 0.2rem 0.5rem;
+        padding-bottom: 0.5rem;
+        word-break: break-all;
+        word-spacing: 1.7px;
+        color: rgb(230, 227, 227);
+        font-size: 1rem;
+        font-weight: 300;
+        text-align: justify;
+      }
+      
+      .pro-btn-group {
+        /* border: 1px solid red; */
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        align-items: center;
+        justify-content: space-evenly;
+      }
+      
+      .link-btn {
+        padding: 0.2rem 0rem;
+      }
+      .link-btn a {
+        font-size: 1.8rem;
+        color: rgb(235, 229, 229);
+        transition: 1s;
+      }
+      
+      .link-btn a:hover {
+        color: #6158E2;
+      }
+ 
+           
+}
+@media (min-width: 640px) {
+}
+
+@media (min-width: 768px) {
+}
+
+@media (min-width: 1024px) {
+}
+
+@media (min-width: 1280px) {
+}
+
+@media (min-width: 1536px) {
+    .pro-card-outer {
+        height: auto;
+        width: 20rem;
+        /* border: 1px solid red; */
+        /* background-color: rgb(197, 196, 196); */
+        display: flex;
+        padding: 0.5rem 0rem;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        align-items: center;
+        justify-content: space-evenly;
+        background-color: transparent;
+        border: 1px solid #3b4053;
+        margin: 0.5rem;
+        margin-left: 0.9rem;
+      }
+      
+      .pro-img {
+        height: 16rem;
+        width: 18rem;
+        /* border: 1px solid rgb(50, 47, 255); */
+      }
+      
+      .pro-deatil-box {
+        height: 10rem;
+        width: 20rem;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        /* align-items: center; */
+        /* justify-content: center; */
+        /* border: 1px solid rgb(164, 9, 202); */
+      }
+      
+      .project-name {
+        padding-top: 0.2rem;
+        font-size: 1.1rem;
+        text-align: center;
+      
+        color: white;
+      }
+      
+      .discreption {
+        padding: 0.2rem 0.5rem;
+        padding-bottom: 0.5rem;
+        word-break: break-all;
+        word-spacing: 1.7px;
+        color: rgb(230, 227, 227);
+        font-size: 1rem;
+        font-weight: 300;
+        text-align: justify;
+      }
+      
+      .pro-btn-group {
+        /* border: 1px solid red; */
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        align-items: center;
+        justify-content: space-evenly;
+      }
+      
+      .link-btn {
+        padding: 0.2rem 0rem;
+      }
+      .link-btn a {
+        font-size: 1.8rem;
+        color: rgb(235, 229, 229);
+        transition: 1s;
+      }
+      
+      .link-btn a:hover {
+        color: #6158E2;
+      }
+}
