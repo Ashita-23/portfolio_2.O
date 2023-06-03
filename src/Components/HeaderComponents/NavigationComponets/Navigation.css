@@ -1,25 +1,10 @@
 
-/* .colos {background-color: #dcdde1;
-    background-color: #f5f6fa;
-    background-color: #2f3640;
-    background-color: #303952;
-    background-color: #2f3542;
-    background-color: #3742fa;
- background-color: #0652DD;
- background-color: #0984e3;
- background-color: #1e90ff;
- background-color: #00a8ff;
- background-color: #18dcff;
-} */
 .nav-outer{    
-  
     position: relative;
     height: 5rem;
     width: 99vw;
-    border: 1px solid #222B45;
-    /* background-color: transparent; */
+    border-bottom: 1px solid #222B45;
     background-color:  #14192F;
-    /* background-color: #fbfcff; */
     display: flex;
     flex-direction: row;
     flex-wrap: nowrap;
@@ -28,38 +13,26 @@
 
 }
 
-
-
 ul {
     margin: 0.2rem 0rem;
     position: fixed;
     background-color: transparent;
-    /* background-color: white; */
-    /* background-color:#88a8ff ; */
-    /* background-color:#464c5c ; */
     display: flex;
     flex-direction: row;
     flex-wrap: nowrap;
     list-style-type: none;
-    /* border: 1px solid #04d1f5; */
     border-top: 3px solid  #88a8ff;
-    /* border-left: 4px solid  #182035; */
     border-bottom: 3px solid  #88a8ff;
-    /* border-right: 4px solid  #e8e8eb; */
     padding: 0.5rem;
     border-radius: 10px;
     backdrop-filter: blur(25px);
     -webkit-backdrop-filter: blur(25px);
-
-
-    
+    z-index: 100;
 }
 .link-list li{
     margin: 0rem 0.2rem;
     color: #88a8ff;
     padding: 0.5rem 2rem;
-    /* color: #1148CC; */
-   
 }
 
 .link-list li a{
