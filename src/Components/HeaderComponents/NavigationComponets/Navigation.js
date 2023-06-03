@@ -1,4 +1,5 @@
 import "./Navigation.css"
+import "./NavigationMedia.css"
 
 // import BG_Animation from "../../Assets/Animation/BG_Animaton"
 
