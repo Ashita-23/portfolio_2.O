@@ -1,5 +1,6 @@
 
 import "./SkillCards.css"
+import "./SkillCardsMedia.css"
 
 
 const SkillCards = ({skillProp})=>{
