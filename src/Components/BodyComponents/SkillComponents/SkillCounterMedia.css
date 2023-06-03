@@ -1,0 +1,164 @@
+
+@media (min-width: 240px) {
+}
+@media (min-width: 375px) {
+    .skill-counter{
+        height: auto;
+        width: 99vw;
+        border: 1px solid red;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        align-items: center;
+        justify-content: center;
+        /* background-color: white; */
+        background-color: #14192f;
+        padding: 5rem 0rem;
+        /* background-color: transparent; */
+        }
+        
+      
+        .skill-inner-box{
+          /* margin-bottom: 1rem; */
+          margin: 1rem 0rem;
+          z-index: 1;
+          height: auto;
+        width: 80vw;
+        /* border: 1px solid red; */
+        border: 1px solid #5a5a5a;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap-reverse;
+        align-items: center;
+        justify-content: center;
+        /* background-color: #2c4e91; */
+        /* background-color: #88A8FF; */
+        background-color: transparent;
+        padding: 1rem 0rem;
+        -webkit-backdrop-filter: blur(12px); 
+         backdrop-filter: blur(12px);
+        /* box-shadow: rgb(72, 72, 73) 0px 1px 2px 0px, rgb(44, 45, 63) 0px 2px 6px 2px; */
+        }
+        .skill-display{
+          /* border: 1px solid white; */
+          height: auto;
+        width: 65vw;
+          display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: space-between;
+            /* border: 1px solid rgb(11, 206, 125); */
+        }
+        
+    
+        .skill-heading{
+          color: #fdfdff;
+          font-size: 2.1rem;
+          font-weight: 600;
+          padding: 0.5rem 0rem;
+          text-align: center;
+          text-transform: capitalize;
+          /* border: 1px solid rgb(167, 155, 155); */
+        
+        }
+        
+        .hash-img-outer{
+        /* border: 1px solid rgb(247, 188, 188); */
+        /* margin: 0.1rem; */
+        }
+        .hash-img-inner{
+        /* border: 1px solid rgb(252, 223, 223); */
+        
+        }
+        
+        .hashImage{
+          height: 18rem;
+        }
+}
+@media (min-width: 640px) {
+}
+
+@media (min-width: 768px) {
+}
+
+@media (min-width: 1024px) {
+}
+
+@media (min-width: 1280px) {
+}
+
+@media (min-width: 1536px) {
+    .skill-counter{
+        height: auto;
+        width: 99vw;
+        /* border: 1px solid red; */
+        display: flex;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        align-items: center;
+        justify-content: center;
+        /* background-color: white; */
+        background-color: #14192f;
+        padding: 5rem 0rem;
+        /* background-color: transparent; */
+        }
+        
+      
+        .skill-inner-box{
+          /* margin-bottom: 1rem; */
+          margin: 2rem 0rem;
+          z-index: 1;
+          height: auto;
+        width: 63vw;
+        border: 1px solid #5a5a5a;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap-reverse;
+        align-items: center;
+        justify-content: center;
+        /* background-color: #2c4e91; */
+        /* background-color: #88A8FF; */
+        background-color: transparent;
+        padding: 1rem 0rem;
+        -webkit-backdrop-filter: blur(12px); 
+         backdrop-filter: blur(12px);
+        /* box-shadow: rgb(72, 72, 73) 0px 1px 2px 0px, rgb(44, 45, 63) 0px 2px 6px 2px; */
+        }
+        .skill-display{
+          /* border: 1px solid white; */
+          height: 30rem;
+        width: 30vw;
+          display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: space-between;
+            /* border: 1px solid rgb(11, 206, 125); */
+        }
+        
+    
+        .skill-heading{
+          color: #fdfdff;
+          font-size: 2.2rem;
+          font-weight: 600;
+          padding: 0.5rem 0rem;
+          text-align: center;
+          text-transform: capitalize;
+          /* border: 1px solid rgb(167, 155, 155); */
+        
+        }
+        
+        .hash-img-outer{
+        /* border: 1px solid rgb(247, 188, 188); */
+        /* margin: 0.1rem; */
+        }
+        .hash-img-inner{
+        /* border: 1px solid rgb(252, 223, 223); */
+        
+        }
+        
+        .hashImage{
+          height: 27rem;
+        }
+}
