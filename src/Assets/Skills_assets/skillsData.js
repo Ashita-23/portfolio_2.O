@@ -55,12 +55,12 @@ export const skillsName = [
             name:"TAILWIND" ,
             url : "https://tailwindcss.com/"
         } ,
-        {
-            id:"10H" ,
-            imgs:next ,
-            name:"NEXT" ,
-            url : "https://nextjs.org/"
-        } ,
+        // {
+        //     id:"10H" ,
+        //     imgs:next ,
+        //     name:"NEXT" ,
+        //     url : "https://nextjs.org/"
+        // } ,
     
     ]
     

@@ -96,7 +96,7 @@
 .resume-btn:hover {
   color: #779ffd;
   border: 1px solid transparent;
-  box-shadow: #080808 0px 1px 3px;
+  box-shadow: #080808 0px 1px 6px;
 }
 
 .resume-btn a{
