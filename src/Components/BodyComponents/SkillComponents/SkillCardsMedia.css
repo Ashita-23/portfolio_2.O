@@ -1,0 +1,110 @@
+
+@media (min-width: 240px) {
+}
+@media (min-width: 375px) {
+    .card-outer{
+        height: 4.5rem;
+        width: 14rem;
+        /* border-radius: 8px; */
+        border: 1px solid rgb(86, 81, 187);
+    }
+
+    .logo-outer{
+        /* border: 1px solid red; */
+        }
+        
+        .logo-img{
+        height: 3rem;
+        }
+        
+
+    .card-text-box{
+        /* border: 1px solid red; */
+        padding: 0.3rem;
+            display: flex;
+            flex-wrap: nowrap;
+            flex-direction: column;
+            align-items: center;
+            justify-content: space-evenly;
+        }
+        .title{
+            font-size: 1.1rem;
+            font-weight: 400;
+            /* color: #88A8FF; */
+            color: white;
+            /* padding-bottom: 5px; */
+            letter-spacing: 1px;
+            /* border-bottom: 1px solid white; */
+        }
+}
+@media (min-width: 640px) {
+}
+
+@media (min-width: 768px) {
+}
+
+@media (min-width: 1024px) {
+}
+
+@media (min-width: 1280px) {
+}
+
+@media (min-width: 1536px) {
+    .card-outer{
+        height: 9vh;
+        width: 14vw;
+        /* border-radius: 8px; */
+        /* border: 1px solid rgb(86, 81, 187); */
+        display: flex;
+        flex-wrap: nowrap;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+        margin: 0.5rem;
+        padding: 1rem 1rem;
+      box-shadow: #000000 0px 1px 6px;
+    
+    /* background-color: #6188f3; */
+        
+        /* box-shadow: rgba(28,26,28, 0.7) 0px 2px 8px 0px; */
+    }
+    /* .card-outer:hover{
+        background-color: #88A8FF;
+    } */
+    
+    .logo-outer{
+    /* border: 1px solid red; */
+    }
+    
+    .logo-img{
+    height: 4rem;
+    }
+    
+    .card-text-box{
+    /* border: 1px solid red; */
+    padding: 0.5rem;
+        display: flex;
+        flex-wrap: nowrap;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-evenly;
+    }
+    .title{
+        font-size: 1.3rem;
+        font-weight: 500;
+        /* color: #88A8FF; */
+        color: white;
+        /* padding-bottom: 5px; */
+        letter-spacing: 1px;
+        /* border-bottom: 1px solid white; */
+    }
+    
+    .skill-loading{
+        color: white;
+        font-size: 1rem;
+        font-weight: 400;
+        letter-spacing: 1px;
+    
+    /* color: #a0b9fd */
+    }
+}
