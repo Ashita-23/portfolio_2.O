@@ -1,4 +1,5 @@
 import "./About.css"
+import "./AboutMedia.css"
 import DummyUser from "../../../Assets/Component_images/dummyUser.jpg"
 import Resume from "../../../Assets/Component_images/ashita.pdf"
 
