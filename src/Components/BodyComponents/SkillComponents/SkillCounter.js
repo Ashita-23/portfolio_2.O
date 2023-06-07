@@ -12,21 +12,13 @@ const SkillCounter = () => {
         {/* <h1 ">Skill</h1> */}
         <div className="skill-inner-box">
         <div className="skill-display">
-
-
-         {
-          skillsName.map((cards) => {
-
-
-            return(<>
-          <SkillCards skillProp={cards} key={cards.id} /></>)
-          })
+              {
+          skillsName.map((cards) => {return(<SkillCards skillProp={cards} key={cards.id} />) })
          }
-        
         </div>
         <div className="hash-img-outer">
         <figcaption className="skill-heading" >My Skills </figcaption>
-        <figure className="hash-img-inner"><img src={hashtagImg} alt="skillImage" className="hashImage" /></figure>
+      <img src={hashtagImg} alt="skillImage" className="hashImage" />
         </div>
         </div>
       </div>
