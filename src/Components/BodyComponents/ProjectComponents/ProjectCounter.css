@@ -15,8 +15,6 @@
        height: auto;
        width: 63vw;
        margin:3rem 0rem;
-
-    
        display: flex;
        flex-direction: column;
        flex-wrap: nowrap;
