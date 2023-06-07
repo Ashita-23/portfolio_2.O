@@ -1,6 +1,8 @@
 
-// import Foodies from "./Foodies.jpg"
+import Sparkle from "./Sparkle.gif"
 import Foodies from "./Swigyy.gif"
+import Portfolio from "./Portfolio.gif"
+
 
 
 export const ProjectHelper = [
@@ -11,21 +13,21 @@ export const ProjectHelper = [
         V_URL: "",
         G_URL : "",
     } ,
-    // {
-    //     id:"10P2" ,
-    //     imgs:ImageName ,
-    //     name:"You Tube (You Tube Clone)" ,
-    //     V_URL: "",
-    //     G_URL : "",
-    // } ,
+    {
+        id:"10P2" ,
+        imgs: Sparkle ,
+        name:"Landing Page " ,
+        V_URL: "",
+        G_URL : "https://github.com/Ashita-23/sparkle-app",
+    } ,
   
-    // {
-    //     id:"10C" ,
-    //     imgs:ImageName ,
-    //     name:"" ,
-    //     V_URL: "",
-    //     G_URL : "",
-    // } ,
+    {
+        id:"10C" ,
+        imgs:Portfolio ,
+        name:"Portfolio" ,
+        V_URL: "",
+        G_URL : "https://github.com/Ashita-23/portfolio_2.O",
+    } ,
 
     // {
     //     id:"10D" ,
