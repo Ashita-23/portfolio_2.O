@@ -13,17 +13,13 @@
     }
     
     .contact-inner{
-
         margin: 3.5rem 0rem;
-       
     z-index: 1;
     border: 1px solid #3B4053;
-    /* background-color: white; */
     background-color: transparent;
     height: auto;
     width: 63vw;
     padding: 1rem 2rem;
-    /* z-index: 1; */;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -32,12 +28,14 @@
     /* border: 1px solid red; */
     
     }
-    
+
     .form-heding{
         padding: 0.5rem 0rem ;
         font-size: 2.2rem;
         font-weight: 400;
         color: #6158E2;
+        border-bottom: 1px solid rgb(68, 68, 68);
+        margin-bottom: 0.5rem;
     /* border: 1px solid red; */
     
     }
@@ -119,6 +117,7 @@
         background-color: transparent;
         transition: 1s;
         outline: none;
+        cursor: pointer;
     
     }
     .input-submit:hover{
@@ -130,7 +129,13 @@
     
     }
     
-    
+    .form-error{
+        font-size: 0.9rem;
+        color: white;
+        padding: 0.1rem 0.2rem;
+        font-weight: 300;
+
+    }
     
     .contact-image-outer{
         /* border: 1px solid red; */
