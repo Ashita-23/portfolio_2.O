@@ -1,6 +1,7 @@
 import "./ContactForm.css"
 import "./ContactFormMedia.css"
-import ContactMail from "../../../Assets/Component_images/ContactMail.png"
+// import ContactMail from "../../../Assets/Component_images/ContactMail.png"
+import Contactus from "../../../Assets/Component_images//Contactus.gif"
 import { useState } from "react"
 
 const Contact = ()=>{
@@ -60,7 +61,7 @@ const FormValidation = (value)=>{
                 </form>
         
                     <figure className="contact-image-outer">
-                        <img src={ContactMail} alt="contact" className="contact-image" />
+                        <img src={ Contactus } alt="contact" className="contact-image" />
                     </figure>
                
             </div>
