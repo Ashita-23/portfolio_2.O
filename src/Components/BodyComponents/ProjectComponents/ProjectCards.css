@@ -19,8 +19,33 @@
     height: 16rem;
     width: 18rem;
     /* border: 1px solid rgb(50, 47, 255); */
+   
   }
   
+  .figure-box{
+    height: 16rem;
+ /* border: 1px solid red; */
+ position: relative;
+ 
+  }
+  /* .figure-box:before{
+    content: " ";
+    position: absolute;
+    cursor: pointer;
+    background-color: rgb(138, 137, 137);
+    opacity: 0.7;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    z-index: 100;
+    transition: 1s;
+  } */
+/*  
+  .figure-box:before:hover{
+    background-color: red;
+    opacity: 1;
+  } */
   .pro-deatil-box {
     height: 10rem;
     width: 20rem;
