@@ -11,7 +11,7 @@
     /* background-color: white; */
     background-color: #14192f;
     padding: 5rem 0rem;
-    /* background-color: transparent; */
+   
     }
     
   
@@ -27,8 +27,6 @@
     flex-wrap: wrap-reverse;
     align-items: center;
     justify-content: center;
-    /* background-color: #2c4e91; */
-    /* background-color: #88A8FF; */
     background-color: transparent;
     padding: 1rem 0rem;
     -webkit-backdrop-filter: blur(12px); 
