@@ -11,7 +11,7 @@ const Home = () =>{
  
         <div className="intro-box">
         <div className="intro-note">
-            <h1 className="name-text"><span className="first-text">Hello ,</span> I am Ashita </h1>
+            <h1 className="name-text"><span className="first-text">Hi,</span> I am Ashita </h1>
             <p className="title-text-box"><span className="sec-text">{ "Frontend Developer" }</span></p>
             <div className="home-btn-group">
             <button className="home-btn">
