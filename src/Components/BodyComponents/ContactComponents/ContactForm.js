@@ -1,8 +1,9 @@
-import "./ContactForm.css"
-import "./ContactFormMedia.css"
-// import ContactMail from "../../../Assets/Component_images/ContactMail.png"
-import Contactus from "../../../Assets/Component_images//Contactus.gif"
+
 import { useState } from "react"
+import emailjs from '@emailjs/browser';
+import "./ContactForm.css"
+import Contactus from "../../../Assets/Component_images//Contactus.gif"
+import "./ContactFormMedia.css"
 
 const Contact = ()=>{
 
@@ -23,6 +24,8 @@ const InputHandler = (e)=>{
 const OnSubmitAction = (e)=>{
     e.preventDefault()
     setFormErrors(FormValidation(form))
+    SendEmail()
+
 }
 
 const FormValidation = (value)=>{
@@ -40,11 +43,29 @@ const FormValidation = (value)=>{
  return errors
 }
 
+const SendEmail = ()=>{
+    const service_id = 'service_gdformq' ;
+    const template_id = 'template_oghlhvp' ;
+    const service_key = 'tRw-z6Tp23s-j136g' ;
+ 
+    const FormsData = {
+        user_name : form.senderName,
+        user_email : form.senderEmail ,
+        message : form.senderText,
+    }
+    emailjs.send(service_id, template_id , FormsData, service_key)
+    .then((result) => {
+        alert("Thank you!")
+    }, (error) => {
+        console.log(error.text);
+    });
+}
+
     return(<>
         <div className="contact-outer" id="contact" >
             <div className="contact-inner" >
                 <form action="" className="form" onSubmit={OnSubmitAction}>
-            <h1 className="form-heding">Send Your Message </h1>
+            <h1 className="form-heding">Get _____  </h1>
                     <lable className="lable">Name</lable>
                         <input type="text" className="input-text" placeholder="jhon" name="senderName" value={form.senderName} onChange={(e)=>InputHandler(e)} />
                         <p className="form-error">{formErrors.senderName}</p>
