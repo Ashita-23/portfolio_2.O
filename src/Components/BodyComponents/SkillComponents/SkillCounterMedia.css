@@ -1,5 +1,205 @@
 
-@media (min-width: 240px) {
+
+@media (min-width: 260px) {
+    .skill-counter{
+        width: 100%;
+        /* border: 1px solid red; */
+        padding: 5rem 0rem;
+        border-bottom: 1px solid gray;
+        }
+        
+        .skill-inner-box{
+          /* border: 1px solid red; */
+          margin: 1rem 0rem;
+        width: 90vw;
+        padding: 1.5rem 0rem;
+        border: none;
+        }
+        .skill-display{
+          /* border: 1px solid white; */
+          height: auto;
+        width:75vw;
+        }
+      
+        .skill-heading{
+          font-size: 2rem;
+          font-weight: 500;
+          padding: 0.5rem 0rem;
+          /* border: 1px solid rgb(233, 1, 1); */
+        }
+        
+        .hashImage{
+          height: 18rem;
+        /* border: 1px solid rgb(212, 19, 19); */
+        }
+}
+@media (min-width: 280px) {
+    .skill-counter{
+        width: 100%;
+        /* border: 1px solid red; */
+        padding: 5rem 0rem;
+        border-bottom: 1px solid gray;
+        }
+        
+        .skill-inner-box{
+          /* border: 1px solid red; */
+          margin: 1rem 0rem;
+        width:90vw;
+        padding: 1.5rem 0rem;
+        }
+        .skill-display{
+          /* border: 1px solid white; */
+          height: auto;
+        width:75vw;
+        }
+      
+        .skill-heading{
+          font-size: 2rem;
+          font-weight: 500;
+          padding: 0.5rem 0rem;
+          /* border: 1px solid rgb(233, 1, 1); */
+        }
+        
+       
+        
+        .hashImage{
+          height: 18rem;
+        /* border: 1px solid rgb(212, 19, 19); */
+        }
+}
+@media (min-width: 300px) {
+    .skill-counter{
+        width: 100%;
+        /* border: 1px solid red; */
+        padding: 5rem 0rem;
+        border-bottom: 1px solid gray;
+        }
+        
+        .skill-inner-box{
+          /* border: 1px solid red; */
+          margin: 1rem 0rem;
+        width: 90vw;
+        padding: 1.5rem 0rem;
+        }
+        .skill-display{
+          /* border: 1px solid white; */
+          height: auto;
+        width:75vw;
+        }
+      
+        .skill-heading{
+          font-size: 2rem;
+          font-weight: 500;
+          padding: 0.5rem 0rem;
+          /* border: 1px solid rgb(233, 1, 1); */
+        }
+        
+        .hashImage{
+          height: 18rem;
+        /* border: 1px solid rgb(212, 19, 19); */
+        }
+}
+@media (min-width: 320px) {
+    .skill-counter{
+        width: 100%;
+        /* border: 1px solid red; */
+        padding: 5rem 0rem;
+        border-bottom: 1px solid gray;
+        }
+        
+        .skill-inner-box{
+          /* border: 1px solid red; */
+          margin: 1rem 0rem;
+        width: 80vw;
+        padding: 1.5rem 0rem;
+        }
+        .skill-display{
+          /* border: 1px solid white; */
+          height: auto;
+        width:75vw;
+        }
+      
+        .skill-heading{
+          font-size: 2rem;
+          font-weight: 500;
+          padding: 0.5rem 0rem;
+          /* border: 1px solid rgb(233, 1, 1); */
+        }
+        
+       
+        
+        .hashImage{
+          height: 18rem;
+        /* border: 1px solid rgb(212, 19, 19); */
+        }
+}
+@media (min-width: 354px) {
+    .skill-counter{
+        width: 100%;
+        /* border: 1px solid red; */
+        padding: 5rem 0rem;
+        border-bottom: 1px solid gray;
+        }
+        
+        .skill-inner-box{
+          /* border: 1px solid red; */
+          margin: 1rem 0rem;
+        width: 80vw;
+        padding: 1.5rem 0rem;
+        }
+        .skill-display{
+          /* border: 1px solid white; */
+          height: auto;
+        width:75vw;
+        }
+      
+        .skill-heading{
+          font-size: 2rem;
+          font-weight: 500;
+          padding: 0.5rem 0rem;
+          /* border: 1px solid rgb(233, 1, 1); */
+        }
+        
+       
+        
+        .hashImage{
+          height: 18rem;
+        /* border: 1px solid rgb(212, 19, 19); */
+        }
+}
+@media (min-width: 360px) {
+    .skill-counter{
+        width: 100%;
+        /* border: 1px solid red; */
+        padding: 5rem 0rem;
+        border-bottom: 1px solid gray;
+        }
+        
+        .skill-inner-box{
+          /* border: 1px solid red; */
+          margin: 1rem 0rem;
+        width: 90vw;
+        padding: 1.5rem 0rem;
+        }
+        .skill-display{
+          /* border: 1px solid white; */
+          height: auto;
+        width:75vw;
+        }
+      
+        .skill-heading{
+          font-size: 2rem;
+          font-weight: 500;
+          padding: 0.5rem 0rem;
+          /* border: 1px solid rgb(233, 1, 1); */
+        }
+        
+       
+        
+        .hashImage{
+          height: 18rem;
+        /* border: 1px solid rgb(212, 19, 19); */
+        }
 }
 @media (min-width: 370px) {
     .skill-counter{
@@ -28,9 +228,7 @@
           /* border: 1px solid rgb(233, 1, 1); */
         }
         
-        .hash-img-outer{
-        /* border: 1px solid rgb(212, 19, 19); */
-        }
+       
         
         .hashImage{
           height: 18rem;
@@ -49,7 +247,7 @@
         .skill-inner-box{
           /* border: 1px solid red; */
           margin: 1rem 0rem;
-        width: 80vw;
+        width: 90vw;
         padding: 1.5rem 0rem;
         }
         .skill-display{
@@ -65,9 +263,7 @@
           /* border: 1px solid rgb(233, 1, 1); */
         }
         
-        .hash-img-outer{
-        /* border: 1px solid rgb(212, 19, 19); */
-        }
+       
         
         .hashImage{
           height: 18rem;
@@ -87,6 +283,7 @@
       margin: 1rem 0rem;
     width: 80vw;
     padding: 1.5rem 0rem;
+    border: 1px solid rgb(40, 51, 82);
     }
     .skill-display{
       /* border: 1px solid white; */
@@ -101,9 +298,7 @@
       /* border: 1px solid rgb(233, 1, 1); */
     }
     
-    .hash-img-outer{
-    /* border: 1px solid rgb(212, 19, 19); */
-    }
+   
     
     .hashImage{
       height: 20rem;
@@ -125,6 +320,7 @@
     width: 80vw;
     padding: 1.5rem 0rem;
     /* border: none; */
+    border: 1px solid rgb(40, 51, 82);
     }
     .skill-display{
       /* border: 1px solid white; */
@@ -141,9 +337,7 @@
       /* border: 1px solid rgb(233, 1, 1); */
     }
     
-    .hash-img-outer{
-    /* border: 1px solid rgb(212, 19, 19); */
-    }
+   
     
     .hashImage{
       height: 22rem;
@@ -164,7 +358,7 @@
       margin: 1rem 0rem;
     width: 80vw;
     padding: 1.5rem 0rem;
-    border: 1px solid #5a5a5a;
+    border: 1px solid rgb(40, 51, 82);
     }
     .skill-display{
       /* border: 1px solid white; */
@@ -182,9 +376,7 @@
       /* border: 1px solid rgb(233, 1, 1); */
     }
     
-    .hash-img-outer{
-    /* border: 1px solid rgb(212, 19, 19); */
-    }
+   
     
     .hashImage{
       height: 22rem;
@@ -205,7 +397,7 @@
       margin: 1rem 0rem;
     width: 80vw;
     padding: 1.5rem 0rem;
-    border: 1px solid #5a5a5a;
+    border: 1px solid rgb(40, 51, 82);
     }
     .skill-display{
       /* border: 1px solid white; */
@@ -224,9 +416,7 @@
       /* border: 1px solid rgb(233, 1, 1); */
     }
     
-    .hash-img-outer{
-    /* border: 1px solid rgb(212, 19, 19); */
-    }
+   
     
     .hashImage{
       height: 20rem;
@@ -248,6 +438,7 @@
     width: 70vw;
     padding: 1.5rem 0rem;
     /* border: 1px solid #5a5a5a; */
+    border: 1px solid rgb(40, 51, 82);
     }
     .skill-display{
       /* border: 1px solid white; */
@@ -266,9 +457,7 @@
       /* border: 1px solid rgb(233, 1, 1); */
     }
     
-    .hash-img-outer{
-    /* border: 1px solid rgb(212, 19, 19); */
-    }
+   
     
     .hashImage{
       height: 20rem;
@@ -289,6 +478,7 @@
     width: 70vw;
     padding: 1.5rem 0rem;
     /* border: 1px solid #5a5a5a; */
+    
     border: none;
     }
     .skill-display{
@@ -308,9 +498,7 @@
       /* border: 1px solid rgb(233, 1, 1); */
     }
     
-    .hash-img-outer{
-    /* border: 1px solid rgb(212, 19, 19); */
-    }
+   
     
     .hashImage{
       height: 23rem;
@@ -350,9 +538,7 @@
       /* border: 1px solid rgb(233, 1, 1); */
     }
     
-    .hash-img-outer{
-    /* border: 1px solid rgb(212, 19, 19); */
-    }
+   
     
     .hashImage{
       height: 23rem;
