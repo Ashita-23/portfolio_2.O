@@ -1,20 +1,95 @@
 
-@media (min-width: 240px) {
-    
+
+@media (min-width: 260px) {
+    .card-outer{
+        height: 4.5rem;
+        width: 12rem;
+        border: 1px solid rgb(86, 81, 187);
+    }
+        .logo-img{
+        height: 3rem;
+        }
+    .card-text-box{
+        /* border: 1px solid red; */
+        padding: 0.3rem;
+        margin-left: 0.5rem;
+       
+        }
+        .title{
+            font-size: 1rem;
+            letter-spacing: 0;
+            /* border-bottom: 1px solid white; */
+        }
 }
-@media (min-width: 375px) {
+@media (min-width: 280px) {
+    .card-outer{
+        height: 4.5rem;
+        width: 12rem;
+        border: 1px solid rgb(86, 81, 187);
+    }
+        .logo-img{
+        height: 3rem;
+        }
+    .card-text-box{
+        /* border: 1px solid red; */
+        padding: 0.3rem;
+        margin-left: 0.5rem;
+       
+        }
+        .title{
+            font-size: 1rem;
+            letter-spacing: 0;
+            /* border-bottom: 1px solid white; */
+        }
+}
+@media (min-width: 300px) {
+    .card-outer{
+        height: 4.5rem;
+        width: 12rem;
+        border: 1px solid rgb(86, 81, 187);
+    }
+        .logo-img{
+        height: 3rem;
+        }
+    .card-text-box{
+        /* border: 1px solid red; */
+        padding: 0.3rem;
+        margin-left: 0.5rem;
+       
+        }
+        .title{
+            font-size: 1rem;
+            letter-spacing: 0;
+            /* border-bottom: 1px solid white; */
+        }
+}
+@media (min-width: 310px) {
+    .card-outer{
+        height: 4.5rem;
+        width: 14rem;
+        border: 1px solid rgb(86, 81, 187);
+    }
+        .logo-img{
+        height: 3rem;
+        }
+    .card-text-box{
+        /* border: 1px solid red; */
+        padding: 0.3rem;
+        margin-left: 0.5rem;
+       
+        }
+        .title{
+            font-size: 1rem;
+            letter-spacing: 0;
+            /* border-bottom: 1px solid white; */
+        }
+}
+@media (min-width: 345px) {
     .card-outer{
         height: 4.5rem;
         width: 16rem;
-       
-        border: 1px solid rgb(86, 81, 187);
-
-       
+        border: 1px solid rgb(86, 81, 187); 
     }
-
-    .logo-outer{
-        /* border: 1px solid red; */
-        }
         
         .logo-img{
         height: 3rem;
@@ -24,18 +99,96 @@
     .card-text-box{
         /* border: 1px solid red; */
         padding: 0.3rem;
-            display: flex;
-            flex-wrap: nowrap;
-            flex-direction: column;
-            align-items: center;
-            justify-content: space-evenly;
         }
         .title{
             font-size: 1.1rem;
-            font-weight: 400;
-            /* color: #88A8FF; */
-            color: white;
-            /* padding-bottom: 5px; */
+            letter-spacing: 1px;
+            /* border-bottom: 1px solid white; */
+        }
+}
+@media (min-width: 354px) {
+    .card-outer{
+        height: 4.5rem;
+        width: 16rem;
+        border: 1px solid rgb(86, 81, 187);
+    }
+        
+        .logo-img{
+        height: 3rem;
+        }
+        
+    .card-text-box{
+        /* border: 1px solid red; */
+        padding: 0.3rem;
+    }
+        .title{
+            font-size: 1.1rem;
+            letter-spacing: 1px;
+            /* border-bottom: 1px solid white; */
+        }
+}
+@media (min-width: 360px) {
+    .card-outer{
+        height: 4.5rem;
+        width: 16rem;
+        border: 1px solid rgb(86, 81, 187);
+    }
+
+        .logo-img{
+        height: 3rem;
+        }
+        
+
+    .card-text-box{
+        /* border: 1px solid red; */
+        padding: 0.3rem;
+        }
+        .title{
+            font-size: 1.1rem;
+            letter-spacing: 1px;
+            /* border-bottom: 1px solid white; */
+        }
+}
+@media (min-width: 370px) {
+    .card-outer{
+        height: 4.5rem;
+        width: 16rem;
+        border: 1px solid rgb(86, 81, 187);
+    }
+
+        .logo-img{
+        height: 3rem;
+        }
+        
+    .card-text-box{
+        /* border: 1px solid red; */
+        padding: 0.3rem;
+        }
+        .title{
+            font-size: 1.1rem;
+            letter-spacing: 1px;
+            /* border-bottom: 1px solid white; */
+        }
+}
+
+@media (min-width: 375px) {
+    .card-outer{
+        height: 4.5rem;
+        width: 16rem;
+        border: 1px solid rgb(86, 81, 187);
+    }
+
+        .logo-img{
+        height: 3rem;
+        }
+        
+    .card-text-box{
+        /* border: 1px solid red; */
+        padding: 0.3rem;
+    
+        }
+        .title{
+            font-size: 1.1rem;
             letter-spacing: 1px;
             /* border-bottom: 1px solid white; */
         }
@@ -78,10 +231,28 @@
         width: 18rem;
         /* border: 1px solid rgb(86, 81, 187); */
     }
-
     
-    .logo-outer{
+    .logo-img{
+    height: 4rem;
+    }
+    
+    .card-text-box{
     /* border: 1px solid red; */
+    padding: 0.5rem;
+    }
+    .title{
+        font-size: 1.3rem;
+        letter-spacing: 1px;
+        /* border-bottom: 1px solid white; */
+    }
+    
+  
+}
+@media (min-width: 1550px) {
+    .card-outer{
+        height: 5.2rem;
+        width: 18rem;
+        /* border: 1px solid rgb(86, 81, 187); */
     }
     
     .logo-img{
@@ -91,28 +262,36 @@
     .card-text-box{
     /* border: 1px solid red; */
     padding: 0.5rem;
-        display: flex;
-        flex-wrap: nowrap;
-        flex-direction: column;
-        align-items: center;
-        justify-content: space-evenly;
     }
     .title{
         font-size: 1.3rem;
-        font-weight: 500;
-        /* color: #88A8FF; */
-        color: white;
-        /* padding-bottom: 5px; */
         letter-spacing: 1px;
         /* border-bottom: 1px solid white; */
     }
     
-    .skill-loading{
-        color: white;
-        font-size: 1rem;
+  
+}
+@media (min-width: 1600px) {
+    .card-outer{
+        height: 5.2rem;
+        width: 18rem;
+        /* border: 1px solid rgb(86, 81, 187); */
+    }
+
+    .logo-img{
+    height: 4rem;
+    }
+    
+    .card-text-box{
+    /* border: 1px solid red; */
+    padding: 0.5rem;
+    }
+    .title{
+        font-size: 1.3rem;
         font-weight: 400;
         letter-spacing: 1px;
-    
-    /* color: #a0b9fd */
+        /* border-bottom: 1px solid white; */
     }
+    
+  
 }
