@@ -1,5 +1,40 @@
 
-@media (min-width: 240px) {
+@media (min-width: 260px) {
+    .nav-outer{    
+        height: 5rem;
+        width: 100%;
+        /* border:1px solid red; */
+    }
+    ul {
+        padding: 0.5rem;
+    }
+    .link-list li{
+        margin: 0rem 0.2rem;
+        padding: 0.3rem 0.5rem;  
+    }
+    .link-list li a{
+        font-size: 1.2rem;
+    }
+}
+
+@media (min-width: 275px) {
+    .nav-outer{    
+        height: 5rem;
+        width: 100%;
+        /* border:1px solid red; */
+    }
+    ul {
+        padding: 0.5rem;
+    }
+    .link-list li{
+        margin: 0rem 0.2rem;
+        padding: 0.3rem 0.5rem;  
+    }
+    .link-list li a{
+        font-size: 1.2rem;
+    }
+}
+@media (min-width: 280px) {
     .nav-outer{    
         height: 5rem;
         width: 100%;
@@ -7,7 +42,108 @@
     }
     
     ul {
-      
+        padding: 0.5rem;
+    }
+    .link-list li{
+        margin: 0rem 0.2rem;
+        padding: 0.3rem 0.5rem;  
+    }
+    .link-list li a{
+        font-size: 1.2rem;
+    }
+}
+@media (min-width: 300px) {
+    .nav-outer{    
+        height: 5rem;
+        width: 100%;
+        /* border:1px solid red; */
+    }
+    ul {
+        padding: 0.5rem;
+    }
+    .link-list li{
+        margin: 0rem 0.2rem;
+        padding: 0.3rem 0.5rem;  
+    }
+    .link-list li a{
+        font-size: 1.2rem;
+    }
+}
+@media (min-width: 310px) {
+    .nav-outer{    
+        height: 5rem;
+        width: 100%;
+        /* border:1px solid red; */
+    }
+    ul {
+        padding: 0.5rem;
+    }
+    .link-list li{
+        margin: 0rem 0.2rem;
+        padding: 0.3rem 0.5rem;  
+    }
+    .link-list li a{
+        font-size: 1.2rem;
+    }
+}
+@media (min-width: 345px) {
+    .nav-outer{    
+        height: 5rem;
+        width: 100%;
+        /* border:1px solid red; */
+    }
+    ul {
+        padding: 0.5rem;
+    }
+    .link-list li{
+        margin: 0rem 0.2rem;
+        padding: 0.3rem 1rem;  
+    }
+    .link-list li a{
+        font-size: 1.3rem;
+    }
+}
+@media (min-width: 354px) {
+    .nav-outer{    
+        height: 5rem;
+        width: 100%;
+        /* border:1px solid red; */
+    }
+    ul {
+        padding: 0.5rem;
+    }
+    .link-list li{
+        margin: 0rem 0.2rem;
+        padding: 0.3rem 1rem;  
+    }
+    .link-list li a{
+        font-size: 1.3rem;
+    }
+}
+@media (min-width: 360px) {
+    .nav-outer{    
+        height: 5rem;
+        width: 100%;
+        /* border:1px solid red; */
+    }
+    ul {
+        padding: 0.5rem;
+    }
+    .link-list li{
+        margin: 0rem 0.2rem;
+        padding: 0.3rem 1rem;  
+    }
+    .link-list li a{
+        font-size: 1.3rem;
+    }
+}
+@media (min-width: 370px) {
+    .nav-outer{    
+        height: 5rem;
+        width: 100%;
+        /* border:1px solid red; */
+    }
+    ul {
         padding: 0.5rem;
     }
     .link-list li{
@@ -25,9 +161,7 @@
         width: 100%;
         /* border:1px solid red; */
     }
-    
     ul {
-      
         padding: 0.5rem;
     }
     .link-list li{
@@ -38,17 +172,14 @@
     .link-list li a{
         font-size: 1.3rem;
     }
-    
 }
-@media (min-width: 640px) {
+@media (min-width: 400px) {
     .nav-outer{    
         height: 5rem;
         width: 100%;
         /* border:1px solid red; */
     }
-    
     ul {
-      
         padding: 0.5rem;
     }
     .link-list li{
@@ -60,7 +191,44 @@
         font-size: 1.3rem;
     }
 }
+@media (min-width: 500px) {
+    .nav-outer{    
+        height: 5rem;
+        width: 100%;
+        /* border:1px solid red; */
+    }
+    ul {
+        padding: 0.5rem;
+    }
+    .link-list li{
+        margin: 0rem 0.2rem;
+        padding: 0.3rem 1rem;  
+    }
+    
+    .link-list li a{
+        font-size: 1.3rem;
+    }
+}
+@media (min-width: 645px) {
+    .nav-outer{    
+        height: 5rem;
+        width: 100%;
+        /* border:1px solid red; */
+    }
+    ul {
+        padding: 0.5rem;
+    }
+    .link-list li{
+        margin: 0rem 0.2rem;
+        padding: 0.3rem 1.5rem;  
+        /* border:1px solid red; */
 
+    }
+    
+    .link-list li a{
+        font-size: 1.3rem;
+    }
+}
 @media (min-width: 768px) {
     .nav-outer{    
         height: 5rem;
@@ -74,14 +242,13 @@
     }
     .link-list li{
         margin: 0rem 0.3rem;
-        padding: 0.3rem 1rem;  
+        padding: 0.3rem 1.5rem;  
     }
     
     .link-list li a{
         font-size: 1.4rem;
     }
 }
-
 @media (min-width: 1024px) {
     .nav-outer{    
         height: 5rem;
@@ -95,14 +262,13 @@
     }
     .link-list li{
         margin: 0rem 0.4rem;
-        padding: 0.3rem 1.1rem;  
+        padding: 0.3rem 1.5rem;  
     }
     
     .link-list li a{
         font-size: 1.4rem;
     }
 }
-
 @media (min-width: 1280px) {
     .nav-outer{    
         height: 5rem;
@@ -116,18 +282,59 @@
     }
     .link-list li{
         margin: 0rem 0.4rem;
-        padding: 0.3rem 1.1rem;  
+        padding: 0.3rem 1.5rem;  
     }
     
     .link-list li a{
         font-size: 1.4rem;
     }
 }
-
 @media (min-width: 1536px) {
     .nav-outer{    
         height: 5rem;
-        width: 100%;
+        width: 99vw;
+    }
+
+    ul {
+        margin: 0.2rem 0rem;
+        padding: 0.5rem;
+    }
+    .link-list li{
+        margin: 0rem 0.5rem;
+        padding: 0.5rem 2rem; 
+    }
+    
+    .link-list li a{
+        font-size: 1.5rem;
+    }
+   
+    
+}
+@media (min-width: 1550px) {
+    .nav-outer{    
+        height: 5rem;
+        width: 99vw;
+    }
+
+    ul {
+        margin: 0.2rem 0rem;
+        padding: 0.5rem;
+    }
+    .link-list li{
+        margin: 0rem 0.5rem;
+        padding: 0.5rem 2rem; 
+    }
+    
+    .link-list li a{
+        font-size: 1.5rem;
+    }
+   
+    
+}
+@media (min-width:  1600px) {
+    .nav-outer{    
+        height: 5rem;
+        width: 99vw;
     }
 
     ul {
