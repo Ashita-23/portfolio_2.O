@@ -12,6 +12,7 @@ import Footer from './Components/FooterComponents/Footer';
 
 import reportWebVitals from './reportWebVitals';
 
+
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
@@ -22,6 +23,7 @@ root.render(
     <SkillCounter></SkillCounter>
     <ProjectCounter></ProjectCounter>
     <Contact></Contact>
+   
     <Footer></Footer>
   </React.StrictMode>
 );
