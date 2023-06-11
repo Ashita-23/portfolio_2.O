@@ -61,9 +61,6 @@ justify-content: center ;
     /* display: none; */
 }
 .title-text-box{
-  /* margin-bottom: 0.2rem; */
-  /* border: 1px solid red; */
-    /* border: 1px solid rgb(138, 135, 135); */
     text-align: center;
 }
 
@@ -108,9 +105,7 @@ justify-content: center ;
     margin: 0rem 1rem;
     outline: none;
     border: none;
-
     background-color: transparent;
-   
     color: #00298a;
     /* padding: 0.1rem 0.4rem; */
 }
@@ -131,10 +126,6 @@ justify-content: center ;
         color: #0336ac;
     }
  .home-btns:hover{
-            /* color: white; */
-            /* box-shadow: none; */
-            /* border: 1px solid #04d1f5; */
-            /* box-shadow: #04d1f5 0px 1px 4px 0px; */
             box-shadow: #0c3baa 0px 1px 2px;
         }
         .home-img{
