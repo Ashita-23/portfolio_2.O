@@ -1,16 +1,17 @@
 .pro-card-outer {
-    height: auto;
+    height: 28rem;
     width: 20rem;
     /* border: 1px solid red; */
-    /* background-color: rgb(197, 196, 196); */
     display: flex;
-    padding: 0.5rem 0rem;
+    padding: 2rem 0.5rem;
     flex-direction: column;
     flex-wrap: nowrap;
     align-items: center;
-    justify-content: space-evenly;
+    justify-content: space-around;
+    border:1px solid #04050a;
     background-color: transparent;
-    border: 1px solid #3b4053;
+    /* border: 1px solid #3b4053; */
+    box-shadow: rgba(12, 12, 24, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
     margin: 0.5rem;
     margin-left: 0.9rem;
   }
@@ -22,38 +23,12 @@
    
   }
   
-  .figure-box{
-    height: 16rem;
- /* border: 1px solid red; */
- position: relative;
- 
-  }
-  /* .figure-box:before{
-    content: " ";
-    position: absolute;
-    cursor: pointer;
-    background-color: rgb(138, 137, 137);
-    opacity: 0.7;
-    top: 0;
-    left: 0;
-    height: 100%;
-    width: 100%;
-    z-index: 100;
-    transition: 1s;
-  } */
-/*  
-  .figure-box:before:hover{
-    background-color: red;
-    opacity: 1;
-  } */
   .pro-deatil-box {
-    height: 10rem;
+    height: 12rem;
     width: 20rem;
     display: flex;
     flex-direction: column;
     flex-wrap: nowrap;
-    /* align-items: center; */
-    /* justify-content: center; */
     /* border: 1px solid rgb(164, 9, 202); */
   }
   
@@ -61,16 +36,14 @@
     padding-top: 0.2rem;
     font-size: 1.1rem;
     text-align: center;
-  
-    color: white;
+    color: rgb(201, 198, 198);
   }
   
   .discreption {
     padding: 0.2rem 0.5rem;
     padding-bottom: 0.5rem;
     word-break: break-all;
-    word-spacing: 1.7px;
-    color: rgb(230, 227, 227);
+    color: rgb(170, 169, 169);
     font-size: 1rem;
     font-weight: 300;
     text-align: justify;
@@ -78,11 +51,12 @@
   
   .pro-btn-group {
     /* border: 1px solid red; */
+    padding: 0rem 2rem;
     display: flex;
     flex-direction: row;
     flex-wrap: nowrap;
     align-items: center;
-    justify-content: space-evenly;
+    justify-content: space-between;
   }
   
   .link-btn {
@@ -90,7 +64,7 @@
   }
   .link-btn a {
     font-size: 1.8rem;
-    color: rgb(235, 229, 229);
+    color: rgb(170, 169, 169);
     transition: 1s;
   }
   
@@ -98,14 +72,30 @@
     color: #6158E2;
   }
 
-  @media (min-width: 240px) {
+  @media (min-width: 280px) {
+  }
+  @media (min-width: 300px) {
+  }
+  @media (min-width: 320px) {
+  }
+  @media (min-width: 354px) {
+  }
+  @media (min-width: 360px) {
+  }
+  @media (min-width: 370px) {
   }
   @media (min-width: 375px) {
+  }
+  @media (min-width: 400px) {
+  }
+  @media (min-width: 500px) {
   }
   @media (min-width: 640px) {
   }
   
   @media (min-width: 768px) {
+  }
+  @media (min-width: 920px) {
   }
   
   @media (min-width: 1024px) {
