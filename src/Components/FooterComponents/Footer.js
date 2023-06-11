@@ -1,4 +1,5 @@
 import "./Footer.css"
+import "./FooterMedia.css"
 
 
 const Footer = ()=>{
