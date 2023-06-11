@@ -12,6 +12,7 @@ export const ProjectHelper = [
         name:"Foodies(Swiggy Clone )",
         V_URL: "",
         G_URL : "",
+        text : "Swiggy Clone App is a single-page application(SPA). Created by using  React | Redux | React-Router | Javascript | JSX | CSS | HTML | Swiggys Public API . " ,
     } ,
     {
         id:"10P2" ,
@@ -19,6 +20,7 @@ export const ProjectHelper = [
         name:"Landing Page " ,
         V_URL: "",
         G_URL : "https://github.com/Ashita-23/sparkle-app",
+        text : "Landing page for an Event Organizer Company. Created by using React | Javascript | JSX | CSS | HTML | Mock Data API." ,
     } ,
   
     {
@@ -27,6 +29,7 @@ export const ProjectHelper = [
         name:"Portfolio" ,
         V_URL: "",
         G_URL : "https://github.com/Ashita-23/portfolio_2.O",
+        text : " Personal portfolio . Created by using React | Javascript | JSX | CSS | HTML . " ,
     } ,
 
     // {
