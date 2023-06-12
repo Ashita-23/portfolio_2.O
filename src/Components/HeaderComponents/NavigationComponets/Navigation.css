@@ -3,7 +3,7 @@
     position: relative;
     height: 5rem;
     width: 99vw;
-    border-bottom: 1px solid #222B45;
+    border:1px solid rgb(37, 37, 80) ;
     background-color:  #14192F;
     display: flex;
     flex-direction: row;
