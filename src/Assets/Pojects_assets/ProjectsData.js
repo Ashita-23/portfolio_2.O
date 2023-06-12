@@ -11,7 +11,7 @@ export const ProjectHelper = [
         imgs:Foodies,
         name:"Foodies(Swiggy Clone )",
         V_URL: "",
-        G_URL : "",
+        G_URL : "https://github.com/Ashita-23/Swiggy_Clone_Repo",
         text : "Swiggy Clone App is a single-page application(SPA). Created by using  React | Redux | React-Router | Javascript | JSX | CSS | HTML | Swiggys Public API . " ,
     } ,
     {
