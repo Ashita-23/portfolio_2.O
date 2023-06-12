@@ -17,7 +17,7 @@ const SkillCounter = () => {
          }
         </div>
         <div className="hash-img-outer">
-        <figcaption className="skill-heading" >My Skills </figcaption>
+        <figcaption className="skill-heading" > Skills </figcaption>
       <img src={hashtagImg} alt="skillImage" className="hashImage" />
         </div>
         </div>
