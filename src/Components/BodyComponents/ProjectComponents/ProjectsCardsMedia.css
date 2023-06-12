@@ -742,6 +742,7 @@
     /* border: 1px solid red; */
     margin: 1rem 0.5rem;
     height: auto;
+    justify-content: center;
     box-shadow: rgba(12, 12, 24, 0.25) 0px 2px 5px -1px,
       rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
   }
@@ -756,7 +757,7 @@
   .pro-deatil-box {
     height: auto;
     width: 18rem;
-    padding: 0.5rem 0.4rem;
+    padding: 0.5rem 0.5rem;
     /* border: 1px solid rgb(164, 9, 202); */
   }
 
@@ -764,15 +765,21 @@
     padding-top: 0.1rem;
     font-size: 1.1rem;
     letter-spacing: 1px;
+    /* border: 1px solid rgb(50, 47, 255); */
+
   }
 
   .discreption {
-    padding: 0.5rem 0rem;
+    padding: 0.5rem 0.5rem;
     font-size: 0.9rem;
     font-weight: 300;
+    /* border: 1px solid rgb(50, 47, 255); */
+
   }
   .link-btn {
     padding: 0.2rem 0rem;
+    /* border: 1px solid rgb(50, 47, 255); */
+
   }
   .link-btn a {
     font-size: 1.5rem;

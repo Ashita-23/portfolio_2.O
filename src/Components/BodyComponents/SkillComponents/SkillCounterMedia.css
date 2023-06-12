@@ -5,7 +5,8 @@
         width: 100%;
         /* border: 1px solid red; */
         padding: 5rem 0rem;
-        border-bottom: 1px solid gray;
+        border-bottom: 1px solid  rgb(37, 37, 80);
+  
         }
         
         .skill-inner-box{
@@ -38,7 +39,7 @@
         width: 100%;
         /* border: 1px solid red; */
         padding: 5rem 0rem;
-        border-bottom: 1px solid gray;
+  
         }
         
         .skill-inner-box{
@@ -72,7 +73,7 @@
         width: 100%;
         /* border: 1px solid red; */
         padding: 5rem 0rem;
-        border-bottom: 1px solid gray;
+  
         }
         
         .skill-inner-box{
@@ -104,7 +105,7 @@
         width: 100%;
         /* border: 1px solid red; */
         padding: 5rem 0rem;
-        border-bottom: 1px solid gray;
+  
         }
         
         .skill-inner-box{
@@ -138,7 +139,7 @@
         width: 100%;
         /* border: 1px solid red; */
         padding: 5rem 0rem;
-        border-bottom: 1px solid gray;
+  
         }
         
         .skill-inner-box{
@@ -172,7 +173,7 @@
         width: 100%;
         /* border: 1px solid red; */
         padding: 5rem 0rem;
-        border-bottom: 1px solid gray;
+  
         }
         
         .skill-inner-box{
@@ -206,7 +207,7 @@
         width: 100%;
         /* border: 1px solid red; */
         padding: 5rem 0rem;
-        border-bottom: 1px solid gray;
+  
         }
         
         .skill-inner-box{
@@ -240,7 +241,7 @@
         width: 100%;
         /* border: 1px solid red; */
         padding: 5rem 0rem;
-        border-bottom: .5px solid gray;
+       
 
         }
         
@@ -275,7 +276,7 @@
     width: 100%;
     /* border: 1px solid red; */
     padding: 5rem 0rem;
-    border-bottom: .5px solid gray;
+   
     }
     
     .skill-inner-box{
@@ -283,7 +284,7 @@
       margin: 1rem 0rem;
     width: 80vw;
     padding: 1.5rem 0rem;
-    border: 1px solid rgb(40, 51, 82);
+    border: 1px solid rgb(37, 37, 80);
     }
     .skill-display{
       /* border: 1px solid white; */
@@ -311,7 +312,7 @@
     width: 100%;
     /* border: 1px solid red; */
     padding: 5rem 0rem;
-    /* border-bottom: .5px solid gray; */
+    /* */
     }
     
     .skill-inner-box{
@@ -320,7 +321,7 @@
     width: 80vw;
     padding: 1.5rem 0rem;
     /* border: none; */
-    border: 1px solid rgb(40, 51, 82);
+    border: 1px solid rgb(37, 37, 80);
     }
     .skill-display{
       /* border: 1px solid white; */
@@ -350,7 +351,7 @@
     width: 100%;
     /* border: 1px solid red; */
     padding: 5rem 0rem;
-    border-bottom: .5px solid gray;
+   border: none;
     }
     
     .skill-inner-box{
@@ -358,7 +359,7 @@
       margin: 1rem 0rem;
     width: 80vw;
     padding: 1.5rem 0rem;
-    border: 1px solid rgb(40, 51, 82);
+    border: 1px solid rgb(37, 37, 80);
     }
     .skill-display{
       /* border: 1px solid white; */
@@ -389,7 +390,7 @@
     width: 100%;
     /* border: 1px solid red; */
     padding: 5rem 0rem;
-    /* border-bottom: .5px solid gray; */
+    /* */
     }
     
     .skill-inner-box{
@@ -397,7 +398,7 @@
       margin: 1rem 0rem;
     width: 80vw;
     padding: 1.5rem 0rem;
-    border: 1px solid rgb(40, 51, 82);
+    border: 1px solid rgb(37, 37, 80);
     }
     .skill-display{
       /* border: 1px solid white; */
@@ -429,7 +430,7 @@
     width: 99vw;
     /* border: 1px solid red; */
     padding: 5rem 0rem;
-    /* border-bottom: .5px solid gray; */
+    /* */
     }
     
     .skill-inner-box{
@@ -438,7 +439,7 @@
     width: 70vw;
     padding: 1.5rem 0rem;
     /* border: 1px solid #5a5a5a; */
-    border: 1px solid rgb(40, 51, 82);
+    border: 1px solid rgb(37, 37, 80);
     }
     .skill-display{
       /* border: 1px solid white; */
@@ -469,7 +470,7 @@
     width: 99vw;
     /* border: 1px solid red; */
     padding: 5rem 0rem;
-    /* border-bottom: .5px solid gray; */
+    /* */
     }
     
     .skill-inner-box{
@@ -478,8 +479,6 @@
     width: 70vw;
     padding: 1.5rem 0rem;
     /* border: 1px solid #5a5a5a; */
-    
-    border: none;
     }
     .skill-display{
       /* border: 1px solid white; */
@@ -510,7 +509,7 @@
     width: 99vw;
     /* border: 1px solid red; */
     padding: 5rem 0rem;
-    /* border-bottom: .5px solid gray; */
+    /* */
     }
     
     .skill-inner-box{
@@ -518,8 +517,7 @@
       margin: 1rem 0rem;
     width: 70vw;
     padding: 1.5rem 0rem;
-    /* border: 1px solid #5a5a5a; */
-    /* border: none; */
+ 
     }
     .skill-display{
       /* border: 1px solid white; */

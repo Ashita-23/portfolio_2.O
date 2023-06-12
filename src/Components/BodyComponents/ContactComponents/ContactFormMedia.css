@@ -17,7 +17,7 @@
         
         .form-heding{
             font-size: 1.2rem;
-
+            padding: 0.5rem 3rem;
         /* border: 1px solid red; */
         }
         
@@ -62,6 +62,13 @@
             height:14rem;
             width: 15rem;
         }
+
+        .showAlert{
+            color: #aba5f8;
+            font-size: 0.9rem;
+            padding: 0rem 0.2rem;
+            /* border: 1px solid rgb(238, 11, 11); */
+        }
 }
 @media (min-width: 280px) {
     .contact-outer{
@@ -81,6 +88,7 @@
         
         .form-heding{
             font-size: 1.5rem;
+            padding: 0.5rem 2rem;
         /* border: 1px solid red; */
         }
         
@@ -203,6 +211,7 @@
         }
         
         .form-heding{
+            padding: 0.5rem 2.5rem;
             font-size: 1.5rem;
         /* border: 1px solid red; */
         }
@@ -264,6 +273,7 @@
         }
         
         .form-heding{
+            padding: 0.5rem 2rem;
             font-size: 1.5rem;
         /* border: 1px solid red; */
         }
@@ -317,14 +327,15 @@
         
         .contact-inner{
              margin: 2.5rem 0rem;
-            border: 1px solid #3B4053;
+            border: 1px solid rgb(37, 37, 80);
         width: 80vw;
-        padding: 1rem 1rem;
+        padding: 1rem 1.5rem;
         /* border: 1px solid red; */
         
         }
         
         .form-heding{
+            padding: 0.5rem 2.2rem;
             font-size: 1.5rem;
         /* border: 1px solid red; */
         }
@@ -378,7 +389,7 @@
         
         .contact-inner{
              margin: 2.5rem 0rem;
-            border: 1px solid #3B4053;
+            border: 1px solid rgb(37, 37, 80);
         width: 80vw;
         padding: 1rem 1rem;
         /* border: 1px solid red; */
@@ -386,6 +397,7 @@
         }
         
         .form-heding{
+            padding: 0.5rem 2rem;
             font-size: 1.5rem;
         /* border: 1px solid red; */
         }
@@ -439,7 +451,7 @@
         
         .contact-inner{
              margin: 2.5rem 0rem;
-            border: 1px solid #3B4053;
+            border: 1px solid rgb(37, 37, 80);
         width: 80vw;
         padding: 1rem 1rem;
         /* border: 1px solid red; */
@@ -500,7 +512,7 @@
         
         .contact-inner{
              margin: 2.5rem 0rem;
-            border: 1px solid #3B4053;
+            border: 1px solid rgb(37, 37, 80);
         width: 80vw;
         padding: 1rem 1rem;
         /* border: 1px solid red; */
@@ -561,7 +573,7 @@
         
         .contact-inner{
              margin: 2rem 0rem;
-            border: 1px solid #3B4053;
+            border: 1px solid rgb(37, 37, 80);
         width: 80vw;
         padding: 1rem 1rem;
         /* border: 1px solid red; */
@@ -570,8 +582,8 @@
         
         .form-heding{
             font-weight: 500;
-            font-size: 1.4rem;
-            padding: 0.5rem 1rem;
+            font-size: 1.5rem;
+            padding: 0.5rem 3.5rem;
         /* border: 1px solid red; */
         }
         
@@ -624,7 +636,7 @@
         
         .contact-inner{
              margin: 2.5rem 0rem;
-            border: 1px solid #3B4053;
+            border: 1px solid rgb(37, 37, 80);
         width: 80vw;
         padding: 1rem 1rem;
         /* border: 1px solid red; */
@@ -633,8 +645,8 @@
         
         .form-heding{
             font-weight: 500;
-            font-size: 1.5rem;
-            padding: 0.5rem 1rem;
+            font-size: 1.6rem;
+            padding: 0.5rem 4rem;
         /* border: 1px solid red; */
         }
         
@@ -689,7 +701,7 @@
         
         .contact-inner{
             margin: 2.5rem 0rem;
-            border: 1px solid #3B4053;
+            border: 1px solid rgb(37, 37, 80);
         width: 80vw;
         padding: 1rem 1rem;
         /* border: 1px solid red; */
@@ -698,8 +710,8 @@
         
         .form-heding{
             font-weight: 500;
-            font-size: 1.5rem;
-            padding: 0.5rem 1rem;
+            font-size: 1.6rem;
+            padding: 0.5rem 4rem;
            
         /* border: 1px solid red; */
         }
@@ -756,7 +768,7 @@
         
         .contact-inner{
              margin: 1.5rem 0rem;
-            border: 1px solid #3B4053;
+            border: 1px solid rgb(37, 37, 80);
         width: 80vw;
         padding: 1rem 1rem;
         /* border: 1px solid red; */
@@ -765,8 +777,8 @@
         
         .form-heding{
             font-weight: 500;
-            font-size: 1.5rem;
-            padding: 0.5rem 1rem;
+            font-size: 1.6rem;
+            padding: 0.5rem 4rem;
            
         /* border: 1px solid red; */
         }
@@ -823,7 +835,7 @@
         
         .contact-inner{
             margin: 2.5rem 0rem;
-            border: 1px solid #3B4053;
+            border: 1px solid rgb(37, 37, 80);
         width: 80vw;
         padding: 1rem 1rem;
         /* border: 1px solid red; */
@@ -832,8 +844,8 @@
         
         .form-heding{
             font-weight: 500;
-            font-size: 1.5rem;
-            padding: 0.5rem 1rem;
+            font-size: 1.6rem;
+            padding: 0.5rem 4rem;
            
         /* border: 1px solid red; */
         }
@@ -890,7 +902,7 @@
         
         .contact-inner{
             margin: 2.5rem 0rem;
-            border: 1px solid #3B4053;
+            border: 1px solid rgb(37, 37, 80);
         width: 80vw;
         padding: 1rem 1rem;
         /* border: 1px solid red; */
@@ -899,7 +911,7 @@
         .form-heding{
             font-size: 2rem;
         /* border: 1px solid red; */
-        padding: 0.5rem 1rem;
+        padding: 0.5rem 4.5rem;
         }
         
         .form{
@@ -939,6 +951,12 @@
             height:24rem;
             width: 24rem;
         }
+        .showAlert{
+            color: #aba5f8;
+            font-size: 0.9rem;
+            padding: 0rem 0.2rem;
+            /* border: 1px solid rgb(238, 11, 11); */
+        }
 }
 @media (min-width: 640px) {
     .contact-outer{
@@ -949,7 +967,7 @@
         
         .contact-inner{
             margin: 2.5rem 0rem;
-            border: 1px solid #3B4053;
+            border: 1px solid rgb(37, 37, 80);
         width: 80vw;
         padding: 1rem 1rem;
         /* border: 1px solid red; */
@@ -958,7 +976,7 @@
         .form-heding{
             font-size: 2rem;
         /* border: 1px solid red; */
-        padding: 0.5rem 1rem;
+        padding: 0.5rem 4.5rem;
         }
         
         .form{
@@ -1009,7 +1027,7 @@
         
         .contact-inner{
              margin: 3rem 0rem;
-            border: 1px solid #3B4053;
+            border: 1px solid rgb(37, 37, 80);
         width: 65vw;
         padding: 1rem 1rem;
         /* border: 1px solid red; */
@@ -1018,7 +1036,7 @@
         .form-heding{
             font-size: 2rem;
         /* border: 1px solid red; */
-        padding: 0.5rem 1rem;
+        padding: 0.5rem 5rem;
         }
         
         .form{
@@ -1070,7 +1088,7 @@
         
         .contact-inner{
              margin: 3rem 0rem;
-            border: 1px solid #3B4053;
+            border: 1px solid rgb(37, 37, 80);
         width: 65vw;
         padding: 1rem 1rem;
         /* border: 1px solid red; */
@@ -1079,7 +1097,7 @@
         .form-heding{
             font-size: 2rem;
         /* border: 1px solid red; */
-        padding: 0.5rem 1rem;
+        padding: 0.5rem 5rem;
         }
         
         .form{
@@ -1131,7 +1149,7 @@
         
         .contact-inner{
              margin: 3rem 0rem;
-            border: 1px solid #3B4053;
+            border: 1px solid rgb(37, 37, 80);
         width: 65vw;
         padding: 1rem 1rem;
         /* border: 1px solid red; */
@@ -1140,7 +1158,7 @@
         .form-heding{
             font-size: 2rem;
         /* border: 1px solid red; */
-        padding: 0.5rem 1rem;
+        padding: 0.5rem 5rem;
         }
         
         .form{
@@ -1192,7 +1210,7 @@
         
         .contact-inner{
              margin: 3.5rem 0rem;
-            border: 1px solid #3B4053;
+            border: 1px solid rgb(37, 37, 80);
         width: 65vw;
         padding: 1rem 1rem;
         /* border: 1px solid red; */
@@ -1201,7 +1219,7 @@
         .form-heding{
             font-size: 2rem;
         /* border: 1px solid red; */
-        padding: 0.5rem 1rem;
+        padding: 0.5rem 5rem;
         }
         
         .form{
@@ -1254,7 +1272,7 @@
         
         .contact-inner{
              margin: 3.5rem 0rem;
-            border: 1px solid #3B4053;
+            border: 1px solid rgb(37, 37, 80);
         width: 80vw;
         padding: 1rem 1rem;
         /* border: 1px solid red; */
@@ -1263,7 +1281,7 @@
         .form-heding{
             font-size: 2rem;
         /* border: 1px solid red; */
-        padding: 0.5rem 1rem;
+        padding: 0.5rem 5rem;
         }
         
         .form{
@@ -1306,6 +1324,12 @@
             height:22rem;
             width: 22rem;
         }
+        .showAlert{
+            color: #aba5f8;
+            font-size: 0.9rem;
+            padding: 0rem 0.2rem;
+            /* border: 1px solid rgb(238, 11, 11); */
+        }
 }
 
 @media (min-width: 1280px) {
@@ -1317,7 +1341,7 @@
         
         .contact-inner{
             margin: 3.5rem 0rem;
-            border: 1px solid #3B4053;
+            border: 1px solid rgb(37, 37, 80);
         width: 80vw;
         padding: 1rem 1rem;
         /* border: 1px solid red; */
@@ -1326,7 +1350,7 @@
         .form-heding{
             font-size: 2rem;
         /* border: 1px solid red; */
-        padding: 0.5rem 1rem;
+        padding: 0.5rem 5rem;
         }
         
         .form{
@@ -1378,7 +1402,7 @@
         
         .contact-inner{
             margin: 3.5rem 0rem;
-            border: 1px solid #3B4053;
+            border: 1px solid rgb(37, 37, 80);
         width: 70vw;
         padding: 1rem 1rem;
         /* border: 1px solid red; */
@@ -1387,7 +1411,7 @@
         .form-heding{
             font-size: 2rem;
         /* border: 1px solid red; */
-        padding: 0.5rem 1rem;
+        padding: 0.5rem 5rem;
         }
         
         .form{
@@ -1438,7 +1462,7 @@
         
         .contact-inner{
             margin: 3.5rem 0rem;
-            border: 1px solid #3B4053;
+            border: 1px solid rgb(37, 37, 80);
         width: 70vw;
         padding: 1rem 1rem;
         /* border: 1px solid red; */
@@ -1447,7 +1471,7 @@
         .form-heding{
             font-size: 2rem;
         /* border: 1px solid red; */
-        padding: 0.5rem 1rem;
+        padding: 0.5rem 5rem;
         }
         
         .form{
@@ -1498,8 +1522,8 @@
         
         .contact-inner{
             margin: 3.5rem 0rem;
-            border: 1px solid #3B4053;
-        width: 63vw;
+            border: 1px solid rgb(37, 37, 80);
+        width: 70vw;
         padding: 1rem 1rem;
         /* border: 1px solid red; */
         }
@@ -1507,7 +1531,7 @@
         .form-heding{
             font-size: 2rem;
         /* border: 1px solid red; */
-        padding: 0.5rem 1rem;
+        padding: 0.5rem 5rem;
         }
         
         .form{
