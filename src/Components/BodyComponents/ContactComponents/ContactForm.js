@@ -9,9 +9,9 @@ const Contact = ()=>{
 
     const initialForm ={senderName: " ", senderEmail: " ", senderText: " "}
 const [form,setForm] = useState(initialForm)
-const [formErrors,setFormErrors] = useState(initialForm)
+const [formErrors,setFormErrors] = useState({})
+const [sendAlert , setSendAlert] = useState(false)
 // console.log(form,"form")
-
 
 const InputHandler = (e)=>{
     // console.log(e.target.value,"inputValue")
@@ -20,14 +20,16 @@ const InputHandler = (e)=>{
     setForm({...form,[name]:value})
 
 }
-
 const OnSubmitAction = (e)=>{
     e.preventDefault()
     setFormErrors(FormValidation(form))
-    SendEmail()
-
+    if(form.senderName !== " " || form.senderEmail !== " "){
+        SendEmail()
+        setSendAlert(true)
+       
+        
+    }
 }
-
 const FormValidation = (value)=>{
    const errors = {}
    const EmailRegex = /^[a-zA-Z0-9]+@+[a-zA-Z0-9]+.+[A-z]/ ;
@@ -39,11 +41,11 @@ const FormValidation = (value)=>{
    }else if (!EmailRegex.test(value.senderEmail)){
     errors.senderEmail = "please enter valid  email!"
    }
-   console.log(value,"VFV")
+//    console.log(value,"VFV")
  return errors
+ 
 }
-
-const SendEmail = ()=>{
+ const SendEmail = ()=>{
     const service_id = 'service_gdformq' ;
     const template_id = 'template_oghlhvp' ;
     const service_key = 'tRw-z6Tp23s-j136g' ;
@@ -55,7 +57,7 @@ const SendEmail = ()=>{
     }
     emailjs.send(service_id, template_id , FormsData, service_key)
     .then((result) => {
-        alert("Thank you!")
+        // alert("Thank you!")
     }, (error) => {
         console.log(error.text);
     });
@@ -65,7 +67,8 @@ const SendEmail = ()=>{
         <div className="contact-outer" id="contact" >
             <div className="contact-inner" >
                 <form action="" className="form" onSubmit={OnSubmitAction}>
-            <h1 className="form-heding">Get _____  </h1>
+            <h1 className="form-heding">Get in touch  </h1>
+                    <p className={sendAlert ? "showAlert":" showAlert hideAlert"}>Thank you ! {form.senderName} I will contact you as soon as posible.</p>
                     <lable className="lable">Name</lable>
                         <input type="text" className="input-text" placeholder="jhon" name="senderName" value={form.senderName} onChange={(e)=>InputHandler(e)} />
                         <p className="form-error">{formErrors.senderName}</p>
@@ -78,13 +81,10 @@ const SendEmail = ()=>{
                 
                     <lable className="lable">Send</lable>
                         <input type="submit" className="input-submit" />
-                    
                 </form>
-        
                     <figure className="contact-image-outer">
                         <img src={ Contactus } alt="contact" className="contact-image" />
                     </figure>
-               
             </div>
         </div>
     </>)
