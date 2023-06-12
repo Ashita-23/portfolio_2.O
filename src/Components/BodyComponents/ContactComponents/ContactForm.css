@@ -15,7 +15,7 @@
     .contact-inner{
         margin: 3.5rem 0rem;
     z-index: 1;
-    border: 1px solid #3B4053;
+    border: 1px solid  rgb(37, 37, 80);
     background-color: transparent;
     height: auto;
     width: 63vw;
@@ -34,7 +34,7 @@
         font-size: 2.2rem;
         font-weight: 400;
         color: #6158E2;
-        border-bottom: 1px solid rgb(68, 68, 68);
+        border-bottom: 1px solid  rgb(37, 37, 80);
         margin-bottom: 0.5rem;
     /* border: 1px solid red; */
     
@@ -146,4 +146,15 @@
     .contact-image{
         height:30rem;
         width: 30rem;
+    }
+
+    .showAlert{
+        color: #aba5f8;
+        font-size: 0.9rem;
+        padding: 0rem 0.2rem;
+        /* border: 1px solid white; */
+    }
+
+    .hideAlert{
+        display: none;
     }
