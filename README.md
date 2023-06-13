@@ -16,6 +16,8 @@ Css3--
 
 Css Media Query--
 
+EmailJS ------
+
 Mock data APIs for skill Cards and project Cards --
 
 Font awesome cdn for Icons --
@@ -45,6 +47,7 @@ Font awesome cdn for Icons --
 #Contact --
 .Contact form  |
 .Contact image |
+.Form with validation and Send data to email featuer |
 
 #Footer --
 .Text
