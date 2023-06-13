@@ -47,7 +47,7 @@ Font awesome cdn for Icons --
 #Contact --
 .Contact form  |
 .Contact image |
-.Form with validation and Send data to email featuer |
+.Form with validation and Send data to email feature |
 
 #Footer --
 .Text
