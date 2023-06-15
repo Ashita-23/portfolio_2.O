@@ -1,0 +1,515 @@
+
+
+
+@media (min-width: 260px) {
+    .about-outer {
+        height: auto ;
+        width: 100%;
+        /* border: 1px solid red; */
+      }
+      
+      .about-inner {
+        height:auto;
+        width: 95%;
+        margin: 3rem 0rem;
+        padding: 1.5rem 0.5rem;
+        /* border: 1px solid rgb(37, 37, 80); */
+        display: flex;
+        flex-direction:column;
+        flex-wrap: nowrap;
+        align-items: center;
+        justify-content: space-around;
+        backdrop-filter:none;
+        -webkit-backdrop-filter: none;
+        /* border: 1px solid red; */
+
+      }
+      
+      .about-image-box {
+        /* border: 1px solid white; */
+      }
+      
+      .about-figuer {
+        height: 12rem;
+        width: 14rem;
+      }
+      .about-image {
+        height: 12rem;
+        width: 14rem;
+      }
+      
+      /* ----- */
+      .about-intro {
+        height: auto;
+        width:90%;
+        /* border: 1px solid white; */
+        color: rgb(255, 255, 255);
+        padding: 0.1rem 0.8rem;
+     
+       justify-content: space-evenly;
+      }
+      .about-title {
+      
+        font-size: 2rem;
+        font-weight: 500;
+        padding: 0.5rem;
+        text-align: center;
+        text-transform: capitalize;
+        /* border: 1px solid yellow; */
+      }
+      
+      .about-text {
+               font-size: 0.9rem;
+        font-weight: 300;
+        text-align: justify;
+        word-spacing: -1.8px;
+        line-height: 18px;
+        /* border: 1px solid yellow; */
+        margin-bottom: 0.5rem;
+      
+      }
+      
+      .resume-btn {
+        margin: 1rem 0rem;
+      }
+}
+
+@media (min-width: 320px) {
+    .about-outer {
+        height: auto ;
+        width: 100%;
+        /* border: 1px solid red; */
+      }
+      
+      .about-inner {
+        height: auto;
+        width: 95%;
+        margin: 3rem 0rem;
+        margin-top: 4rem;
+        padding: 2rem 0.5rem;
+        /* border: 1px solid rgb(37, 37, 80); */
+        display: flex;
+        flex-direction:column;
+        flex-wrap: nowrap;
+        align-items: center;
+        justify-content: space-around;
+        backdrop-filter:none;
+        -webkit-backdrop-filter: none;
+        /* border: 1px solid red; */
+
+      }
+      
+      .about-image-box {
+        /* border: 1px solid white; */
+      }
+      
+      .about-figuer {
+        height: 12rem;
+        width: 14rem;
+      }
+      .about-image {
+        height: 12rem;
+        width: 14rem;
+      }
+      
+      /* ----- */
+      .about-intro {
+        height: auto;
+        width:90%;
+        /* border: 1px solid white; */
+        color: rgb(255, 255, 255);
+        padding: 0.1rem 0.8rem;
+      margin-top: 1.5rem;
+       justify-content: space-evenly;
+      }
+      .about-title {
+      
+        font-size: 2rem;
+        font-weight: 500;
+        padding: 0.5rem;
+        text-align: center;
+        text-transform: capitalize;
+        /* border: 1px solid yellow; */
+      }
+      
+      .about-text {
+               font-size: 0.9rem;
+        font-weight: 300;
+        text-align: justify;
+        word-spacing: -1.8px;
+        line-height: 18px;
+        margin-bottom: 0.5rem;
+        /* border: 1px solid yellow; */
+      
+      }
+      
+      .resume-btn {
+        margin: 1rem 0rem;
+      }
+}
+
+@media (min-width: 481px) {
+    .about-outer {
+        height: auto ;
+        width: 100%;
+        /* border: 1px solid red; */
+      }
+      
+      .about-inner {
+        height: auto;
+        width: 80%;
+        margin: 3rem 0rem;
+        margin-top: 4rem;
+        padding: 1rem 0.5rem;
+        /* border: 1px solid rgb(37, 37, 80); */
+        display: flex;
+        flex-direction:column;
+        flex-wrap: nowrap;
+        align-items: center;
+        justify-content: space-around;
+        backdrop-filter:none;
+        -webkit-backdrop-filter: none;
+        /* border: 1px solid red; */
+
+      }
+      
+      .about-image-box {
+        /* border: 1px solid white; */
+      }
+      
+      .about-figuer {
+        height: 14rem;
+        width: 16rem;
+      }
+      .about-image {
+        height: 14rem;
+        width: 16rem;
+      }
+      
+      /* ----- */
+      .about-intro {
+        height: auto;
+        width:90%;
+        margin-top: 1.5rem;
+        /* border: 1px solid white; */
+        color: rgb(255, 255, 255);
+        padding: 0.1rem 0.8rem;
+     
+       justify-content: space-evenly;
+      }
+      .about-title {
+      
+        font-size: 2rem;
+        font-weight: 500;
+        padding: 0.5rem;
+        text-align: center;
+        text-transform: capitalize;
+        /* border: 1px solid yellow; */
+      }
+      
+      .about-text {
+               font-size: 1rem;
+        font-weight: 300;
+        text-align: justify;
+        word-spacing: -1.8px;
+        line-height: 18px;
+        /* border: 1px solid yellow; */
+        margin-bottom: 0.5rem;
+      
+      }
+      
+      .resume-btn {
+        margin: 1rem 0rem;
+      }
+}
+
+@media (min-width: 790px) {
+    .about-outer {
+        height: auto ;
+        width: 100%;
+        /* border: 1px solid red; */
+      }
+      
+      .about-inner {
+        height: auto;
+        width: 70%;
+        margin: 3rem 0rem;
+        margin-top: 4rem;
+        padding: 2rem 0.5rem;
+        /* border: 1px solid rgb(37, 37, 80); */
+        display: flex;
+        flex-direction:column;
+        flex-wrap: nowrap;
+        align-items: center;
+        justify-content: space-around;
+        backdrop-filter:none;
+        -webkit-backdrop-filter: none;
+        /* border: 1px solid red; */
+
+      }
+      
+      .about-image-box {
+        /* border: 1px solid white; */
+      }
+      
+      .about-figuer {
+        height: 14rem;
+        width: 16rem;
+      }
+      .about-image {
+        height: 14rem;
+        width: 16rem;
+      }
+      
+      /* ----- */
+      .about-intro {
+        height: auto;
+        width:95%;
+        /* border: 1px solid white; */
+        color: rgb(255, 255, 255);
+        padding: 1rem 0.8rem;
+       margin-top: 2rem;
+       justify-content: space-evenly;
+      }
+      .about-title {
+      
+        font-size: 2rem;
+        font-weight: 500;
+        padding: 0.5rem;
+        text-align: center;
+        text-transform: capitalize;
+        /* border: 1px solid yellow; */
+      }
+      
+      .about-text {
+               font-size: 1rem;
+        font-weight: 300;
+        text-align: justify;
+        word-spacing: -1.8px;
+        line-height: 18px;
+        /* border: 1px solid yellow; */
+        margin-bottom: 0.5rem;
+      
+      }
+      
+      .resume-btn {
+        margin: 1rem 0rem;
+      }
+}
+
+@media (min-width: 1024px) {
+    .about-outer {
+        height: auto ;
+        width: 100%;
+        /* border: 1px solid red; */
+      }
+      
+      .about-inner {
+        height: auto;
+        width: 80%;
+        margin: 3rem 0rem;
+        margin-top: 4rem;
+        /* border: 1px solid rgb(37, 37, 80); */
+        display: flex;
+        flex-direction:row;
+        flex-wrap: nowrap;
+        align-items: center;
+        justify-content: space-around;
+        backdrop-filter:none;
+        -webkit-backdrop-filter: none;
+        /* border: 1px solid red; */
+        padding: 5rem 0rem;
+
+      }
+      
+      .about-image-box {
+        /* border: 1px solid white; */
+      }
+      
+      .about-figuer {
+        height: 16rem;
+        width: 18rem;
+      }
+      .about-image {
+        height: 16rem;
+        width: 18rem;
+      }
+      
+      /* ----- */
+      .about-intro {
+        height: auto;
+        width:50%;
+        /* border: 1px solid white; */
+        color: rgb(255, 255, 255);
+        padding: 0.8rem 0.8rem;
+     
+       justify-content: space-evenly;
+      }
+      .about-title {
+      
+        font-size: 2.2rem;
+        font-weight: 500;
+        padding: 0.5rem;
+        text-align: center;
+        text-transform: capitalize;
+        /* border: 1px solid yellow; */
+      }
+      
+      .about-text {
+               font-size: 1rem;
+        font-weight: 300;
+        text-align: justify;
+        word-spacing: normal;
+        line-height: 18px;
+        /* border: 1px solid yellow; */
+      
+      }
+      
+      .resume-btn {
+        margin: 1rem 0rem;
+      }
+}
+@media (min-width: 1025px) {
+    .about-outer {
+        height: auto ;
+        width: 100%;
+        /* border: 1px solid red; */
+      }
+      
+      .about-inner {
+        height: auto;
+        width: 80%;
+        margin: 3rem 0rem;
+        margin-top: 4rem;
+        /* border: 1px solid rgb(37, 37, 80); */
+        display: flex;
+        flex-direction:row;
+        flex-wrap: nowrap;
+        align-items: center;
+        justify-content: space-around;
+        backdrop-filter:none;
+        -webkit-backdrop-filter: none;
+        /* border: 1px solid red; */
+        padding: 5rem 0rem;
+
+      }
+      
+      .about-image-box {
+        /* border: 1px solid white; */
+      }
+      
+      .about-figuer {
+        height: 16rem;
+        width: 18rem;
+      }
+      .about-image {
+        height: 16rem;
+        width: 18rem;
+      }
+      
+      /* ----- */
+      .about-intro {
+        height: auto;
+        width:50%;
+        /* border: 1px solid white; */
+        color: rgb(255, 255, 255);
+        padding: 0.8rem 0.8rem;
+     
+       justify-content: space-evenly;
+      }
+      .about-title {
+      
+        font-size: 2.2rem;
+        font-weight: 500;
+        padding: 0.5rem;
+        text-align: center;
+        text-transform: capitalize;
+        /* border: 1px solid yellow; */
+      }
+      
+      .about-text {
+               font-size: 1rem;
+        font-weight: 300;
+        text-align: justify;
+        word-spacing: normal;
+        line-height: 18px;
+        /* border: 1px solid yellow; */
+      
+      }
+      
+      .resume-btn {
+        margin: 1rem 0rem;
+      }
+}
+@media (min-width: 1201px) {
+    .about-outer {
+        height: auto ;
+        width: 99vw;
+        /* border: 1px solid red; */
+      }
+      
+      .about-inner {
+        height: auto;
+        width: 70%;
+        margin: 3rem 0rem;
+        margin-top: 4rem;
+        /* border: 1px solid rgb(37, 37, 80); */
+        display: flex;
+        flex-direction:row;
+        flex-wrap: nowrap;
+        align-items: center;
+        justify-content: space-around;
+        backdrop-filter:none;
+        -webkit-backdrop-filter: none;
+        /* border: 1px solid red; */
+        padding: 5rem 0rem;
+
+      }
+      
+      .about-image-box {
+        /* border: 1px solid white; */
+      }
+      
+      .about-figuer {
+        height: 16rem;
+        width: 18rem;
+      }
+      .about-image {
+        height: 16rem;
+        width: 18rem;
+      }
+      
+      /* ----- */
+      .about-intro {
+        height: auto;
+        width:50%;
+        /* border: 1px solid white; */
+        color: rgb(255, 255, 255);
+        padding: 1rem 0.8rem;
+     
+       justify-content: space-evenly;
+      }
+      .about-title {
+      
+        font-size: 2.2rem;
+        font-weight: 500;
+        padding: 1rem;
+        text-align: center;
+        text-transform: capitalize;
+        /* border: 1px solid yellow; */
+      }
+      
+      .about-text {
+               font-size: 1rem;
+        font-weight: 300;
+        text-align: justify;
+        word-spacing: normal;
+        line-height: 18px;
+        /* border: 1px solid yellow; */
+      
+      }
+      
+      .resume-btn {
+        margin: 1rem 0rem;
+      }
+}
