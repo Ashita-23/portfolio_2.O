@@ -5,7 +5,7 @@
         width: 100%;
         /* border: 1px solid red; */
         padding: 5rem 0rem;
-        border-bottom: 1px solid  rgb(37, 37, 80);
+       
   
         }
         
@@ -15,6 +15,7 @@
         width: 90vw;
         padding: 1.5rem 0rem;
         border: none;
+       
         }
         .skill-display{
           /* border: 1px solid white; */
@@ -320,7 +321,7 @@
       margin: 1rem 0rem;
     width: 80vw;
     padding: 1.5rem 0rem;
-    /* border: none; */
+    /* */
     border: 1px solid rgb(37, 37, 80);
     }
     .skill-display{
@@ -351,7 +352,7 @@
     width: 100%;
     /* border: 1px solid red; */
     padding: 5rem 0rem;
-   border: none;
+  
     }
     
     .skill-inner-box{
@@ -390,7 +391,8 @@
     width: 100%;
     /* border: 1px solid red; */
     padding: 5rem 0rem;
-    /* */
+   
+
     }
     
     .skill-inner-box{
@@ -427,10 +429,53 @@
 
 @media (min-width: 1536px) {
   .skill-counter{
+    width: 100%;
+    /* border: 1px solid red; */
+    padding: 5rem 0rem;
+   
+
+    }
+    
+    .skill-inner-box{
+      /* border: 1px solid red; */
+      margin: 1rem 0rem;
+    width: 70vw;
+    padding: 1.5rem 0rem;
+    /* border: 1px solid #5a5a5a; */
+    border: 1px solid rgb(37, 37, 80);
+    }
+    .skill-display{
+      /* border: 1px solid white; */
+      height: auto;
+    width:40vw;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin: 2rem 0rem;
+    }
+  
+    .skill-heading{
+      font-size: 2.2rem;
+      font-weight: 500;
+      padding-top: 0.5rem ;
+      padding-bottom: 0rem ;
+      /* border: 1px solid rgb(233, 1, 1); */
+    }
+    
+   
+    
+    .hashImage{
+      height: 20rem;
+    /* border: 1px solid rgb(212, 19, 19); */
+    }
+}
+
+@media (min-width: 1600px) {
+  .skill-counter{
     width: 99vw;
     /* border: 1px solid red; */
     padding: 5rem 0rem;
-    /* */
+   
+
     }
     
     .skill-inner-box{
@@ -470,7 +515,7 @@
     width: 99vw;
     /* border: 1px solid red; */
     padding: 5rem 0rem;
-    /* */
+  
     }
     
     .skill-inner-box{
@@ -509,7 +554,7 @@
     width: 99vw;
     /* border: 1px solid red; */
     padding: 5rem 0rem;
-    /* */
+   
     }
     
     .skill-inner-box{

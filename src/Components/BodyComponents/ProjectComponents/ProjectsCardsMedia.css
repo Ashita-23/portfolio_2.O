@@ -107,6 +107,7 @@
     height: auto;
     width: 18rem;
     overflow: hidden;
+    
   }
 
   .pro-img {
@@ -491,7 +492,7 @@
   .pro-card-outer {
     /* border: 1px solid red; */
 
-    margin: 1rem 0rem;
+    margin: 1rem 1rem;
     height: auto;
   }
 
@@ -531,7 +532,7 @@
 @media (min-width: 768px) {
   .pro-card-outer {
     /* border: 1px solid red; */
-    margin: 1rem 0.5rem;
+    margin: 1rem 1rem;
     height: auto;
   }
 
@@ -571,7 +572,7 @@
 @media (min-width: 1024px) {
   .pro-card-outer {
     /* border: 1px solid red; */
-    margin: 1rem 0.5rem;
+    margin: 1rem 1rem;
     height: auto;
     box-shadow: rgba(12, 12, 24, 0.25) 0px 2px 5px -1px,
       rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
@@ -614,7 +615,7 @@
 @media (min-width: 1280px) {
   .pro-card-outer {
     /* border: 1px solid red; */
-    margin: 1rem 0.5rem;
+    margin: 1rem 2rem;
     height: auto;
     box-shadow: rgba(12, 12, 24, 0.25) 0px 2px 5px -1px,
       rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
@@ -740,7 +741,7 @@
 @media (min-width: 1600px) {
   .pro-card-outer {
     /* border: 1px solid red; */
-    margin: 1rem 0.5rem;
+    margin: 1rem 1.5rem;
     height: auto;
     justify-content: center;
     box-shadow: rgba(12, 12, 24, 0.25) 0px 2px 5px -1px,
