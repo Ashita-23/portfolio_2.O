@@ -2,8 +2,9 @@
 import { useState } from "react"
 import emailjs from '@emailjs/browser';
 import "./ContactForm.css"
+import "./CFMedia.css"
 import Contactus from "../../../Assets/Component_images//Contactus.gif"
-import "./ContactFormMedia.css"
+
 
 const Contact = ()=>{
 

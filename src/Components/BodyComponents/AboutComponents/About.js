@@ -1,5 +1,5 @@
 import "./About.css";
-import "./AboutMedia.css";
+import "./AMedia.css";
 import DummyUser from "../../../Assets/Component_images/dummyUser.jpg";
 import Resume from "../../../Assets/Component_images/aashitaFD.pdf";
 
@@ -15,15 +15,13 @@ const About = () => {
         <div className="about-intro">
           <h1 className="about-title">About Me </h1>
           <p className="about-text">
-            Self taught Frontend Developer. At present I am working as Resource
-            coordinator.I had complited my graduation in Commerce. Now I want
-            to switch my career in IT.I have intermediate level of skills in
-            React | Javascript | GitAndGithub | JSX | APIs | Tailwind | Bootstrap | Css | Html.
+            Self taught Frontend Developer.I had complited my graduation in Commerce.I have intermediate level of skills in React|
+            Javascript| GitAndGithub| JSX| Tailwind| Bootstrap|   Css| Html.
           </p>
           <p className="about-text">
-            I had created multiple projects some of those are  Landing page | Swiggy clone |
-            Portpolio web sites. So I also have basice skills in React-Router
-            and Redux.
+            I had created multiple projects some of those are Landing page|
+            Swiggy clone| Portpolio web sites.I also haeve beginner level skills in
+            React-Router and Redux.
           </p>
           <button className="resume-btn">
             <a href={Resume} download={"ashita.pdf"}>

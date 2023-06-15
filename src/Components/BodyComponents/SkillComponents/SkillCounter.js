@@ -1,5 +1,5 @@
 import './SkillCounter.css'
-import './SkillCounterMedia.css'
+import "./SCMedia.css"
 import SkillCards from "./SkillCards";
 import hashtagImg  from '../../../Assets/Component_images/hashTag.png'
 import { skillsName } from '../../../Assets/Skills_assets/skillsData';

@@ -1,5 +1,6 @@
 import "./ProjectCounter.css"
-import "./ProjectCounterMedia.css"
+import "./PCMedia.css"
+// import "./ProjectCounterMedia.css"
 import { ProjectHelper } from "../../../Assets/Pojects_assets/ProjectsData"
 import ProjectCards from "./ProjectCards"
 

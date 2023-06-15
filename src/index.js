@@ -1,7 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
-// import App from './App';
 import Navigation from './Components/HeaderComponents/NavigationComponets/Navigation';
 import Home from './Components/HeaderComponents/HomeComponent/Home'
 import About from './Components/BodyComponents/AboutComponents/About';
@@ -23,7 +22,6 @@ root.render(
     <SkillCounter></SkillCounter>
     <ProjectCounter></ProjectCounter>
     <Contact></Contact>
-   
     <Footer></Footer>
   </React.StrictMode>
 );
