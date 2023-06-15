@@ -7,22 +7,21 @@
     align-items: center;
     background-color: #14192f;
     /* border: 1px solid red; */
-    padding: 4.5rem 0rem;
+    /* border: none; */
    }
    
    .project-inner-box{
-    border:1px solid rgb(37, 37, 80) ;
+  
        height: auto;
        width: 63vw;
        margin:3rem 0rem;
+       
        display: flex;
        flex-direction: column;
        flex-wrap: nowrap;
        align-items: center;
        z-index: 1;
        background-color: transparent;
-       backdrop-filter: blur(12px); 
-     -webkit-backdrop-filter: blur(12px);
    /* box-shadow: rgb(72, 72, 73) 0px 1px 2px 0px, rgb(44, 45, 63) 0px 2px 6px 2px; */
    }
    .pro-heading{
@@ -30,6 +29,7 @@
        color: rgb(255, 255, 255);
        font-weight: 500;
        padding: 1rem 0rem;
+       letter-spacing: 1px;
        background-color: transparent;
    }
    

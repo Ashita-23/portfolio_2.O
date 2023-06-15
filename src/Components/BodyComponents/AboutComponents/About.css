@@ -1,6 +1,7 @@
 .about-outer {
   height: 96vh;
   width: 99vw;
+  padding: 2rem 0rem;
   /* border: 1px solid red; */
   /* background-color: white; */
   background-color: #14192f;
@@ -9,14 +10,15 @@
   flex-wrap: nowrap;
   align-items: center;
   justify-content: center;
-  border-bottom:1px solid rgb(37, 37, 80) ;
+  /* border-bottom:1px solid rgb(37, 37, 80) ; */
+  border: none;
 }
 
 .about-inner {
   height: 50vh;
   width: 63vw;
   margin: 3rem 0rem;
-  border: 1px solid rgb(37, 37, 80);
+  /* border: 1px solid rgb(37, 37, 80); */
   display: flex;
   flex-direction: row;
   flex-wrap: nowrap;
@@ -34,10 +36,10 @@
   position: relative;
   height: 18rem;
   width: 20rem;
-  border-top: 8px solid #2557df;
-  border-left: 7px solid #2557df;
-  border-bottom: 6px solid #2557df;
-  background-color: #2557df;
+  border-top: 8px solid #0345fc;
+  border-left: 7px solid #0345fc;
+  border-bottom: 6px solid #0345fc;
+  background-color: #0345fc;
 }
 .about-image {
   position: absolute;
@@ -54,7 +56,7 @@
 
   width: 40rem;
   /* border: 1px solid white; */
-  color: white;
+
   padding: 0.1rem 1rem;
   z-index: 1;
   display: flex;
@@ -64,7 +66,7 @@
  /* justify-content: space-evenly; */
 }
 .about-title {
-  color: #fbfbff;
+  color: white;
   font-size: 2.2rem;
   font-weight: 500;
   padding: 0.5rem;
@@ -74,7 +76,8 @@
 }
 
 .about-text {
-  color: #88a8ff;
+  color: #2767fc;       
+
   /* border: 1px solid yellow; */
 
 }
@@ -88,7 +91,7 @@
   border-radius: 15px;
   background-color: transparent;
   letter-spacing: 1px;
-  color: #4a80fd;
+  color: #0345fc;
   padding: 0.5rem 1.1rem;
   font-size: 1.1rem;
   font-weight: 500;
@@ -97,12 +100,12 @@
 }
 
 .resume-btn:hover {
-  color: #779ffd;
+  color: #2f65f8;
   border: 1px solid transparent;
   box-shadow: #080808 0px 1px 6px;
 }
 
 .resume-btn a{
     text-decoration: none;
-    color: #4a80fd;
+    color: #0345fc;
 }

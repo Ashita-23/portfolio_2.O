@@ -3,13 +3,14 @@
     position: relative;
     height: 5rem;
     width: 99vw;
-    border:1px solid rgb(37, 37, 80) ;
+    /* border:1px solid rgb(37, 37, 80) ; */
     background-color:  #14192F;
     display: flex;
     flex-direction: row;
     flex-wrap: nowrap;
     align-items: center;
     justify-content: space-evenly;
+    border: none;
 
 }
 
@@ -21,8 +22,8 @@ ul {
     flex-direction: row;
     flex-wrap: nowrap;
     list-style-type: none;
-    border-top: 3px solid  #88a8ff;
-    border-bottom: 3px solid  #88a8ff;
+    border-top: 3px solid  #2767fc;
+    border-bottom: 3px solid  #2767fc;
     padding: 0.5rem;
     border-radius: 10px;
     backdrop-filter: blur(25px);
@@ -31,16 +32,15 @@ ul {
 }
 .link-list li{
     margin: 0rem 0.2rem;
-    color: #88a8ff;
     padding: 0.5rem 2rem;
 }
 
 .link-list li a{
     font-size: 1.5rem;
-    color: #91aeff;
+    color: #2767fc; 
 }
 
 :active{
-    color: #f8f9fc;
+    color: #547df8;
 }
 

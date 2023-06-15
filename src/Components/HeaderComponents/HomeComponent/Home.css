@@ -1,5 +1,4 @@
 .home-outer{
-
     /* border: 1px solid red; */
     height: 99vh;
     width: 99vw;
@@ -11,12 +10,13 @@
     /* background-color:  #101426; */
     background-color:  #14192F;
     position: relative;
-    
+  border: none;
+  /* margin-top: 1rem; */
     
 }
 
 .intro-box{
-    position: absolute;
+    /* position: absolute; */
     padding: 0.5rem;
     height: 50vh;
     width: 63vw;
@@ -25,12 +25,10 @@
     flex-wrap: wrap-reverse;
     align-items: center;
     justify-content: space-between;
-    background-color:  #88a8ff;
+    /* background-color:  #88a8ff; */
 border: 1px solid transparent;
 /* border-radius: 15px; */
--webkit-backdrop-filter: blur(12px);
-backdrop-filter: blur(12px);
-box-shadow: rgb(0, 0, 0) 0px 1px 3px 0px, rgb(0, 0, 0) 0px 2px 6px 2px;
+
 
 
 }
@@ -126,7 +124,7 @@ justify-content: center ;
         color: #0336ac;
     }
  .home-btns:hover{
-            box-shadow: #0c3baa 0px 1px 2px;
+            box-shadow: #376eee 0px 1px 2px;
         }
         .home-img{
             height: 25rem ;

@@ -9,14 +9,12 @@
     align-items: center;
     justify-content: center;
     z-index: 1;
-    /* -webkit-backdrop-filter: blur(12px); */
-/* backdrop-filter: blur(12px); */
-border-top: 1px solid rgb(37, 37, 80);
-/* border: 1px solid red; */
+border-top: 1px solid rgb(31, 33, 133);
+
 }
 .footer-text-box span {
     /* color: white; */
-    color:#7599fd;
+    color:#215bfc;
 
 }
 .heart-icone{

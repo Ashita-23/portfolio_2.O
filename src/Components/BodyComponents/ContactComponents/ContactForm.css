@@ -10,12 +10,15 @@
     justify-content: center;
     background-color: #14192f;
     /* border: 1px solid red; */
+  border: none;
+
+
     }
     
     .contact-inner{
         margin: 3.5rem 0rem;
     z-index: 1;
-    border: 1px solid  rgb(37, 37, 80);
+    /* border: 1px solid  rgb(37, 37, 80); */
     background-color: transparent;
     height: auto;
     width: 63vw;
@@ -26,6 +29,7 @@
     align-items:center;
     justify-content: space-around;
     /* border: 1px solid red; */
+ 
     
     }
 
@@ -33,10 +37,10 @@
         padding: 0.5rem 0rem ;
         font-size: 2.2rem;
         font-weight: 400;
-        color: #6158E2;
-        border-bottom: 1px solid  rgb(37, 37, 80);
+        color: #fdfdfd;
         margin-bottom: 0.5rem;
     /* border: 1px solid red; */
+    letter-spacing: 1px;
     
     }
     
@@ -52,41 +56,45 @@
     flex-wrap: nowrap;
     align-items: flex-start;
     justify-content: space-around;
+   
     }
     
     .lable{
     /* border: 1px solid red; */
       padding: 0.2rem 0.2rem ;
         font-size: 1.2rem;
-        color: #88A8FF;
+        font-weight: 300;
+        color: rgb(253, 253, 253);
     
     }
     .input-text{
         width: 20rem;
-        border: 1px solid #6158E2;
+        border: 1px solid rgb(5, 5, 250);
         padding:0.4rem 0.5rem;
         font-size: 1.2rem;
         border-radius: 10px;
         outline: none;
-        color: #8f87f7;
+        font-weight: 400;
+        color:rgb(245, 245, 245);
         background-color: transparent;
     
     }
     
     .input-text:is(:focus){
         border:1px solid  transparent;
-        box-shadow: 0px 0px 3px #aba5f8;
+        box-shadow: 0px 0px 3px #ffffff;
     }
     
     .input-textarea{
         width: 20rem;
         height: 10rem;
-        border: 1px solid #6158E2;
+        font-weight: 400;
+        border: 1px solid rgb(5, 5, 250);
         padding:0.5rem 0.5rem;
         font-size: 1.2rem;
         border-radius: 10px;
         outline: none;
-        color: #8f87f7;
+        color: #f2f2f7;
         resize: none;
         background-color: transparent;    
     
@@ -94,7 +102,7 @@
     
     .input-textarea:is(:focus){
         border:1px solid  transparent;
-        box-shadow: 0px 0px 3px #aba5f8;
+        box-shadow: 0px 0px 3px #fdfdfd;
     }
     
     .input-textarea::-webkit-scrollbar{ 
@@ -102,17 +110,18 @@
     }
     
     ::placeholder{
-        color: #b8b3ff;
+        color: #c5c5c5;
         font-weight: 200;
         font-size: 1.1rem;
+        z-index: 5;
     }
     .input-submit{
     
-        border: 1px solid #6158E2;
+        border: 1px solid rgb(5, 5, 250);
         border-radius: 10px;
-        color: #6158E2;
+        color: #ffffff;
         font-size: 1.1rem;
-        font-weight: 600;
+        font-weight: 300;
         padding: 0.5rem 1.5rem;
         background-color: transparent;
         transition: 1s;
@@ -122,10 +131,10 @@
     }
     .input-submit:hover{
         border: 1px solid transparent;
-    
+        font-weight: 400;
         color: #d4d4d4;
-        box-shadow: 0px 0px 3px #aba5f8;
-        background-color: #6158E2;
+        box-shadow: 0px 0px 3px #fefeff;
+        background-color: #1101f1;
     
     }
     
@@ -149,8 +158,9 @@
     }
 
     .showAlert{
-        color: #aba5f8;
+        color: #fefeff;
         font-size: 0.9rem;
+        font-weight: 300;
         padding: 0rem 0.2rem;
         /* border: 1px solid white; */
     }
