@@ -1,0 +1,1004 @@
+
+@media (min-width: 260px) {
+    .contact-outer{
+        height: auto;
+        width: 100%;
+        /* border: 1px solid red; */
+        }
+        
+        .contact-inner{
+            margin: 3.5rem 0rem;
+        height: auto;
+        width: 90%;
+        padding: 0;
+        /* border: 1px solid red; */
+        }
+    
+        .form-heding{
+            padding: 0.5rem 0.5rem ;
+            font-size: 1.8rem;
+            font-weight: 400;
+            width: 100%;
+            text-align: center;
+        /* border: 1px solid red; */
+        
+        }
+        
+        .form{
+        z-index: 1;
+        height: 30rem;
+        width:100%;
+        padding: 1rem 1rem;
+        /* border: 1px solid rgb(236, 190, 190); */
+        }
+        
+        .lable{
+        /* border: 1px solid red; */
+          padding: 0.2rem 0.2rem ;
+            font-size: 1.2rem;
+           
+        
+        }
+        .input-text{
+            width:100%;
+            padding:0.4rem 0.5rem;
+            font-size: 1.2rem;
+            border-radius: 10px;
+       
+        }
+        
+        .input-text:is(:focus){
+            border:1px solid  transparent;
+        }
+        
+        .input-textarea{
+            width:100%;
+            height: 10rem;
+            padding:0.5rem 0.5rem;
+            font-size: 1.2rem;
+        }
+        
+        ::placeholder{
+            font-weight: 200;
+            font-size: 1.1rem;
+        }
+        .input-submit{
+            font-size: 1.1rem;
+            padding: 0.5rem 1.5rem;
+            background-color: transparent;
+        }
+      
+        
+        .form-error{
+            font-size: 0.9rem;
+            font-weight: 300;
+        }
+        
+        .contact-image-outer{
+            /* border: 1px solid red; */
+            background-color: transparent;
+        }
+        
+        .contact-image{
+            height:14rem;
+            width: 16rem;
+        }
+    
+    
+}
+
+@media (min-width: 320px) {
+    .contact-outer{
+        height: auto;
+        width: 100%;
+        /* border: 1px solid red; */
+        }
+        
+        .contact-inner{
+            margin: 3.5rem 0rem;
+        height: auto;
+        width: 90%;
+        padding: 0;
+        /* border: 1px solid red; */
+        }
+    
+        .form-heding{
+            padding: 0.5rem 0rem ;
+            text-align: center;
+            font-size: 2rem;
+            font-weight: 400;
+            width:100%;
+        /* border: 1px solid red; */
+        
+        }
+        
+        .form{
+        z-index: 1;
+        height: 30rem;
+        width:95%;
+        padding: 1rem 1rem;
+        /* border: 1px solid rgb(236, 190, 190); */
+        }
+        
+        .lable{
+        /* border: 1px solid red;       */
+          padding: 0.2rem 0.2rem ;
+            font-size: 1.2rem;
+           
+        
+        }
+        .input-text{
+            width:100%;
+            padding:0.4rem 0.5rem;
+            font-size: 1.2rem;
+            border-radius: 10px;
+       
+        }
+        
+       
+        
+        .input-textarea{
+            width:100%;
+            height: 10rem;
+            padding:0.5rem 0.5rem;
+            font-size: 1.2rem;
+        }
+        
+        ::placeholder{
+            font-weight: 200;
+            font-size: 1.1rem;
+        }
+        .input-submit{
+            font-size: 1.1rem;
+            padding: 0.5rem 1.5rem;
+            background-color: transparent;
+        }
+      
+        
+        .form-error{
+            font-size: 0.9rem;
+            font-weight: 300;
+        }
+        
+        .contact-image-outer{
+            /* border: 1px solid red; */
+            background-color: transparent;
+        }
+        
+        .contact-image{
+            height:16rem;
+            width: 18rem;
+        }   
+}
+@media (min-width: 400px) {
+    .contact-outer{
+        height: auto;
+        width: 100%;
+        /* border: 1px solid red; */
+        }
+        
+        .contact-inner{
+            margin: 3.5rem 0rem;
+        height: auto;
+        width: 80%;
+        padding: 0;
+        /* border: 1px solid red; */
+        }
+    
+        .form-heding{
+            padding: 0.5rem 0rem ;
+            font-size: 2rem;
+            font-weight: 400;
+         
+        /* border: 1px solid red; */
+        
+        }
+        
+        .form{
+        z-index: 1;
+        height: 30rem;
+        width:90%;
+        padding: 1rem 1rem;
+        /* border: 1px solid rgb(236, 190, 190); */
+        }
+        
+        .lable{
+        /* border: 1px solid red;       */
+          padding: 0.2rem 0.2rem ;
+            font-size: 1.2rem;
+           
+        
+        }
+        .input-text{
+            width:100%;
+            padding:0.4rem 0.5rem;
+            font-size: 1.2rem;
+            border-radius: 10px;
+       
+        }
+        
+        .input-text:is(:focus){
+            border:1px solid  transparent;
+        }
+        
+        .input-textarea{
+            width:100%;
+            height: 10rem;
+            padding:0.5rem 0.5rem;
+            font-size: 1.2rem;
+        }
+        
+        ::placeholder{
+            font-weight: 200;
+            font-size: 1.1rem;
+        }
+        .input-submit{
+            font-size: 1.1rem;
+            padding: 0.5rem 1.5rem;
+            background-color: transparent;
+        }
+      
+        
+        .form-error{
+            font-size: 0.9rem;
+            font-weight: 300;
+        }
+        
+        .contact-image-outer{
+            /* border: 1px solid red; */
+            background-color: transparent;
+        }
+        
+        .contact-image{
+            height:18rem;
+            width: 20rem;
+        }   
+}
+
+@media (min-width: 481px) {
+    .contact-outer{
+        height: auto;
+        width: 100%;
+        /* border: 1px solid red; */
+        }
+        
+        .contact-inner{
+            margin: 3.5rem 0rem;
+        height: auto;
+        width: 80%;
+        padding: 0;
+        /* border: 1px solid red; */
+        }
+    
+        .form-heding{
+            padding: 0.5rem 0rem ;
+            font-size: 2rem;
+            font-weight: 400;
+         
+        /* border: 1px solid red; */
+        
+        }
+        
+        .form{
+        z-index: 1;
+        height: 30rem;
+        width:80%;
+        padding: 1rem 1rem;
+        /* border: 1px solid rgb(236, 190, 190); */
+        }
+        
+        .lable{
+        /* border: 1px solid red;       */
+          padding: 0.2rem 0.2rem ;
+            font-size: 1.2rem;
+           
+        
+        }
+        .input-text{
+            width:100%;
+            padding:0.4rem 0.5rem;
+            font-size: 1.2rem;
+            border-radius: 10px;
+       
+        }
+        
+    
+        
+        .input-textarea{
+            width:100%;
+            height: 10rem;
+            padding:0.5rem 0.5rem;
+            font-size: 1.2rem;
+        }
+        
+        ::placeholder{
+            font-weight: 200;
+            font-size: 1.1rem;
+        }
+        .input-submit{
+            font-size: 1.1rem;
+            padding: 0.5rem 1.5rem;
+            background-color: transparent;
+        }
+      
+        
+        .form-error{
+            font-size: 0.9rem;
+            font-weight: 300;
+        }
+        
+        .contact-image-outer{
+            /* border: 1px solid red; */
+            background-color: transparent;
+        }
+        
+        .contact-image{
+            height:20rem;
+            width: 22rem;
+        }   
+}
+@media (min-width: 548px) {
+    .contact-outer{
+        height: auto;
+        width: 100%;
+        /* border: 1px solid red; */
+        }
+        
+        .contact-inner{
+            margin: 3.5rem 0rem;
+        height: auto;
+        width: 80%;
+        padding: 0;
+        /* border: 1px solid red; */
+        }
+    
+        .form-heding{
+            padding: 0.5rem 0rem ;
+            font-size: 2rem;
+            font-weight: 400;
+         
+        /* border: 1px solid red; */
+        
+        }
+        
+        .form{
+        z-index: 1;
+        height: 30rem;
+        width:80%;
+        padding: 1rem 1rem;
+        /* border: 1px solid rgb(236, 190, 190); */
+        }
+        
+        .lable{
+        /* border: 1px solid red;       */
+          padding: 0.2rem 0.2rem ;
+            font-size: 1.2rem;
+           
+        
+        }
+        .input-text{
+            width:100%;
+            padding:0.4rem 0.5rem;
+            font-size: 1.2rem;
+            border-radius: 10px;
+       
+        }
+        
+    
+        
+        .input-textarea{
+            width:100%;
+            height: 10rem;
+            padding:0.5rem 0.5rem;
+            font-size: 1.2rem;
+        }
+        
+        ::placeholder{
+            font-weight: 200;
+            font-size: 1.1rem;
+        }
+        .input-submit{
+            font-size: 1.1rem;
+            padding: 0.5rem 1.5rem;
+            background-color: transparent;
+        }
+      
+        
+        .form-error{
+            font-size: 0.9rem;
+            font-weight: 300;
+        }
+        
+        .contact-image-outer{
+            /* border: 1px solid red; */
+            background-color: transparent;
+        }
+        
+        .contact-image{
+            height:20rem;
+            width: 22rem;
+        }   
+}
+
+@media (min-width: 600px) {
+    .contact-outer{
+        height: auto;
+        width: 100%;
+        /* border: 1px solid red; */
+        }
+        
+        .contact-inner{
+            margin: 3.5rem 0rem;
+        height: auto;
+        width: 70%;
+        padding: 0;
+        /* border: 1px solid red; */
+        }
+    
+        .form-heding{
+            padding: 0.5rem 0rem ;
+            font-size: 2rem;
+            font-weight: 400;
+         
+        /* border: 1px solid red; */
+        
+        }
+        
+        .form{
+        z-index: 1;
+        height: 30rem;
+        width:80%;
+        padding: 1rem 1rem;
+        /* border: 1px solid rgb(236, 190, 190); */
+        }
+        
+        .lable{
+        /* border: 1px solid red;       */
+          padding: 0.2rem 0.2rem ;
+            font-size: 1.2rem;
+           
+        
+        }
+        .input-text{
+            width:100%;
+            padding:0.4rem 0.5rem;
+            font-size: 1.2rem;
+            border-radius: 10px;
+       
+        }
+        
+    
+        
+        .input-textarea{
+            width:100%;
+            height: 10rem;
+            padding:0.5rem 0.5rem;
+            font-size: 1.2rem;
+        }
+        
+        ::placeholder{
+            font-weight: 200;
+            font-size: 1.1rem;
+        }
+        .input-submit{
+            font-size: 1.1rem;
+            padding: 0.5rem 1.5rem;
+            background-color: transparent;
+        }
+      
+        
+        .form-error{
+            font-size: 0.9rem;
+            font-weight: 300;
+        }
+        
+        .contact-image-outer{
+            /* border: 1px solid red; */
+            background-color: transparent;
+        }
+        
+        .contact-image{
+            height:20rem;
+            width: 22rem;
+        }  
+}
+@media (min-width: 648px) {
+    .contact-outer{
+        height: auto;
+        width: 100%;
+        /* border: 1px solid red; */
+        }
+        
+        .contact-inner{
+            margin: 3.5rem 0rem;
+        height: auto;
+        width: 70%;
+        padding: 0;
+        /* border: 1px solid red; */
+        }
+    
+        .form-heding{
+            padding: 0.5rem 0rem ;
+            font-size: 2rem;
+            font-weight: 400;
+         
+        /* border: 1px solid red; */
+        
+        }
+        
+        .form{
+        z-index: 1;
+        height: 30rem;
+        width:80%;
+        padding: 1rem 1rem;
+        /* border: 1px solid rgb(236, 190, 190); */
+        }
+        
+        .lable{
+        /* border: 1px solid red;       */
+          padding: 0.2rem 0.2rem ;
+            font-size: 1.2rem;
+           
+        
+        }
+        .input-text{
+            width:100%;
+            padding:0.4rem 0.5rem;
+            font-size: 1.2rem;
+            border-radius: 10px;
+       
+        }
+        
+    
+        
+        .input-textarea{
+            width:100%;
+            height: 10rem;
+            padding:0.5rem 0.5rem;
+            font-size: 1.2rem;
+        }
+        
+        ::placeholder{
+            font-weight: 200;
+            font-size: 1.1rem;
+        }
+        .input-submit{
+            font-size: 1.1rem;
+            padding: 0.5rem 1.5rem;
+            background-color: transparent;
+        }
+      
+        
+        .form-error{
+            font-size: 0.9rem;
+            font-weight: 300;
+        }
+        
+        .contact-image-outer{
+            /* border: 1px solid red; */
+            background-color: transparent;
+        }
+        
+        .contact-image{
+            height:20rem;
+            width: 22rem;
+        }  
+}
+@media (min-width: 790px) {
+    .contact-outer{
+        height: auto;
+        width: 100%;
+        /* border: 1px solid red; */
+        }
+        
+        .contact-inner{
+            margin: 3.5rem 0rem;
+        height: auto;
+        width: 60%;
+        padding: 1rem;
+        /* border: 1px solid red; */
+        border: 1px solid rgb(31, 33, 133);
+        }
+    
+        .form-heding{
+            padding: 0.5rem 0rem ;
+            font-size: 2rem;
+            font-weight: 400;
+         
+        /* border: 1px solid red; */
+        
+        }
+        
+        .form{
+        z-index: 1;
+        height: 30rem;
+        width:100%;
+        padding: 1rem 1rem;
+        /* border: 1px solid rgb(236, 190, 190); */
+        }
+        
+        .lable{
+        /* border: 1px solid red;       */
+          padding: 0.2rem 0.2rem ;
+            font-size: 1.2rem;
+           
+        
+        }
+        .input-text{
+            width:100%;
+            padding:0.4rem 0.5rem;
+            font-size: 1.2rem;
+            border-radius: 10px;
+       
+        }
+        
+    
+        
+        .input-textarea{
+            width:100%;
+            height: 10rem;
+            padding:0.5rem 0.5rem;
+            font-size: 1.2rem;
+        }
+        
+        ::placeholder{
+            font-weight: 200;
+            font-size: 1.1rem;
+        }
+        .input-submit{
+            font-size: 1.1rem;
+            padding: 0.5rem 1.5rem;
+            background-color: transparent;
+        }
+      
+        
+        .form-error{
+            font-size: 0.9rem;
+            font-weight: 300;
+        }
+        
+        .contact-image-outer{
+            /* border: 1px solid red; */
+            background-color: transparent;
+        }
+        
+        .contact-image{
+            height:20rem;
+            width: 22rem;
+        }  
+}
+@media (min-width: 850px) {
+    .contact-outer{
+        height: auto;
+        width: 100%;
+        /* border: 1px solid red; */
+        }
+        
+        .contact-inner{
+            margin: 3.5rem 0rem;
+        height: auto;
+        width: 60%;
+        padding: 1rem;
+        /* border: 1px solid red; */
+        border: 1px solid rgb(31, 33, 133);
+        }
+    
+        .form-heding{
+            padding: 0.5rem 0rem ;
+            font-size: 2rem;
+            font-weight: 400;
+         
+        /* border: 1px solid red; */
+        
+        }
+        
+        .form{
+        z-index: 1;
+        height: 30rem;
+        width:80%;
+        padding: 1rem 1rem;
+        /* border: 1px solid rgb(236, 190, 190); */
+        }
+        
+        .lable{
+        /* border: 1px solid red;       */
+          padding: 0.2rem 0.2rem ;
+            font-size: 1.2rem;
+           
+        
+        }
+        .input-text{
+            width:100%;
+            padding:0.4rem 0.5rem;
+            font-size: 1.2rem;
+            border-radius: 10px;
+       
+        }
+        
+    
+        
+        .input-textarea{
+            width:100%;
+            height: 10rem;
+            padding:0.5rem 0.5rem;
+            font-size: 1.2rem;
+        }
+        
+        ::placeholder{
+            font-weight: 200;
+            font-size: 1.1rem;
+        }
+        .input-submit{
+            font-size: 1.1rem;
+            padding: 0.5rem 1.5rem;
+            background-color: transparent;
+        }
+      
+        
+        .form-error{
+            font-size: 0.9rem;
+            font-weight: 300;
+        }
+        
+        .contact-image-outer{
+            /* border: 1px solid red; */
+            background-color: transparent;
+        }
+        
+        .contact-image{
+            height:20rem;
+            width: 22rem;
+        }  
+}
+
+@media (min-width: 1024px) {
+    .contact-outer{
+        height: auto;
+        width: 100%;
+        /* border: 1px solid red; */
+        }
+        
+        .contact-inner{
+            margin: 3.5rem 0rem;
+        height: auto;
+        width: 80%;
+        padding: 0;
+        /* border: 1px solid red; */
+        border: 1px solid rgb(31, 33, 133);
+        }
+    
+        .form-heding{
+            padding: 0.5rem 0rem ;
+            font-size: 2rem;
+            font-weight: 400;
+         
+        /* border: 1px solid red; */
+        
+        }
+        
+        .form{
+        z-index: 1;
+        height:30rem;
+        width:50%;
+        padding: 1rem 1rem;
+        /* border: 1px solid rgb(236, 190, 190); */
+        }
+        
+        .lable{
+        /* border: 1px solid red;       */
+          padding: 0.2rem 0.2rem ;
+            font-size: 1.2rem;
+           
+        
+        }
+        .input-text{
+            width:100%;
+            padding:0.4rem 0.5rem;
+            font-size: 1.2rem;
+            border-radius: 10px;
+       
+        }
+        
+    
+        
+        .input-textarea{
+            width:100%;
+            height: 10rem;
+            padding:0.5rem 0.5rem;
+            font-size: 1.2rem;
+        }
+        
+        ::placeholder{
+            font-weight: 200;
+            font-size: 1.1rem;
+        }
+        .input-submit{
+            font-size: 1.1rem;
+            padding: 0.5rem 1.5rem;
+            background-color: transparent;
+        }
+      
+        
+        .form-error{
+            font-size: 0.9rem;
+            font-weight: 300;
+        }
+        
+        .contact-image-outer{
+            /* border: 1px solid red; */
+            background-color: transparent;
+        }
+        
+        .contact-image{
+            height:20rem;
+            width: 22rem;
+        }  
+}
+@media (min-width: 1025px) {
+    .contact-outer{
+        height: auto;
+        width: 100%;
+        /* border: 1px solid red; */
+        }
+        
+        .contact-inner{
+            margin: 3.5rem 0rem;
+        height: auto;
+        width: 80%;
+        padding: 0;
+        /* border: 1px solid red; */
+        border: 1px solid rgb(31, 33, 133);
+        }
+    
+        .form-heding{
+            padding: 0.5rem 0rem ;
+            font-size: 2rem;
+            font-weight: 400;
+         
+        /* border: 1px solid red; */
+        
+        }
+        
+        .form{
+        z-index: 1;
+        height: 30rem;
+        width:50%;
+        padding: 1rem 1rem;
+        /* border: 1px solid rgb(236, 190, 190); */
+        }
+        
+        .lable{
+        /* border: 1px solid red;       */
+          padding: 0.2rem 0.2rem ;
+            font-size: 1.2rem;
+           
+        
+        }
+        .input-text{
+            width:100%;
+            padding:0.4rem 0.5rem;
+            font-size: 1.2rem;
+            border-radius: 10px;
+       
+        }
+        
+    
+        
+        .input-textarea{
+            width:100%;
+            height: 10rem;
+            padding:0.5rem 0.5rem;
+            font-size: 1.2rem;
+        }
+        
+        ::placeholder{
+            font-weight: 200;
+            font-size: 1.1rem;
+        }
+        .input-submit{
+            font-size: 1.1rem;
+            padding: 0.5rem 1.5rem;
+            background-color: transparent;
+        }
+      
+        
+        .form-error{
+            font-size: 0.9rem;
+            font-weight: 300;
+        }
+        
+        .contact-image-outer{
+            /* border: 1px solid red; */
+            background-color: transparent;
+        }
+        
+        .contact-image{
+            height:20rem;
+            width: 22rem;
+        }  
+}
+@media (min-width: 1201px) {
+    .contact-outer{
+        height: auto;
+        width:99vw;
+        /* border: 1px solid red; */
+        }
+        
+        .contact-inner{
+            margin: 3.5rem 0rem;
+        height: auto;
+        width: 70%;
+        padding: 2rem 1rem;
+        /* border: 1px solid red; */
+        border: 1px solid rgb(31, 33, 133);
+        }
+    
+        .form-heding{
+            padding: 0.5rem 0rem ;
+            font-size: 2rem;
+            font-weight: 400;
+         
+        /* border: 1px solid red; */
+        
+        }
+        
+        .form{
+        z-index: 1;
+        height: 30rem;
+        width:40%;
+        padding: 1rem 1rem;
+        /* border: 1px solid rgb(236, 190, 190); */
+        }
+        
+        .lable{
+        /* border: 1px solid red;       */
+          padding: 0.2rem 0.2rem ;
+            font-size: 1.2rem;
+           
+        
+        }
+        .input-text{
+            width:100%;
+            padding:0.4rem 0.5rem;
+            font-size: 1.2rem;
+            border-radius: 10px;
+       
+        }
+        
+    
+        
+        .input-textarea{
+            width:100%;
+            height: 10rem;
+            padding:0.5rem 0.5rem;
+            font-size: 1.2rem;
+        }
+        
+        ::placeholder{
+            font-weight: 200;
+            font-size: 1.1rem;
+            z-index: 5;
+        
+        }
+        .input-submit{
+            font-size: 1.1rem;
+            padding: 0.5rem 1.5rem;
+            background-color: transparent;
+        }
+      
+        
+        .form-error{
+            font-size: 0.9rem;
+            font-weight: 300;
+        }
+        
+        .contact-image-outer{
+            /* border: 1px solid red; */
+            background-color: transparent;
+        }
+        
+        .contact-image{
+            height:22rem;
+            width: 24rem;
+        }  
+} 
