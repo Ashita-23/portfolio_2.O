@@ -4,7 +4,7 @@
     .card-outer{
         height: 4.5rem;
         width: 12rem;
-        border: 1px solid rgb(86, 81, 187);
+        border: 1px solid rgb(38, 41, 245);
     }
         .logo-img{
         height: 3rem;
@@ -25,7 +25,7 @@
     .card-outer{
         height: 4.5rem;
         width: 12rem;
-        border: 1px solid rgb(86, 81, 187);
+        border: 1px solid rgb(38, 41, 245);
     }
         .logo-img{
         height: 3rem;
@@ -46,7 +46,7 @@
     .card-outer{
         height: 4.5rem;
         width: 12rem;
-        border: 1px solid rgb(86, 81, 187);
+        border: 1px solid rgb(38, 41, 245);
     }
         .logo-img{
         height: 3rem;
@@ -67,7 +67,7 @@
     .card-outer{
         height: 4.5rem;
         width: 14rem;
-        border: 1px solid rgb(86, 81, 187);
+        border: 1px solid rgb(38, 41, 245);
     }
         .logo-img{
         height: 3rem;
@@ -88,7 +88,7 @@
     .card-outer{
         height: 4.5rem;
         width: 16rem;
-        border: 1px solid rgb(86, 81, 187); 
+        border: 1px solid rgb(38, 41, 245); 
     }
         
         .logo-img{
@@ -110,7 +110,7 @@
     .card-outer{
         height: 4.5rem;
         width: 16rem;
-        border: 1px solid rgb(86, 81, 187);
+        border: 1px solid rgb(38, 41, 245);
     }
         
         .logo-img{
@@ -131,7 +131,7 @@
     .card-outer{
         height: 4.5rem;
         width: 16rem;
-        border: 1px solid rgb(86, 81, 187);
+        border: 1px solid rgb(38, 41, 245);
     }
 
         .logo-img{
@@ -153,7 +153,7 @@
     .card-outer{
         height: 4.5rem;
         width: 16rem;
-        border: 1px solid rgb(86, 81, 187);
+        border: 1px solid rgb(38, 41, 245);
     }
 
         .logo-img{
@@ -174,8 +174,8 @@
 @media (min-width: 375px) {
     .card-outer{
         height: 4.5rem;
-        width: 16rem;
-        border: 1px solid rgb(86, 81, 187);
+        width: 18rem;
+        border: 1px solid rgb(38, 41, 245);
     }
 
         .logo-img{
@@ -196,32 +196,39 @@
 @media (min-width: 640px) {
     .card-outer{
         height: 4.5rem;
-        width: 20rem;
-        border: 1px solid rgb(86, 81, 187);
+        width: 16rem;
+        border: 1px solid rgb(38, 41, 245);
     }
 }
 
 @media (min-width: 768px) {
     .card-outer{
         height: 4.5rem;
-        width: 16rem;
-        /* border: 1px solid rgb(86, 81, 187); */
+        width: 15rem;
+        /* border: 1px solid rgb(38, 41, 245); */
     }
 }
 
 @media (min-width: 1024px) {
     .card-outer{
         height: 4.5rem;
-        width: 18rem;
-        /* border: 1px solid rgb(86, 81, 187); */
+        width: 16rem;
+        /* border: 1px solid rgb(38, 41, 245); */
     }
 }
 
+@media (min-width: 1200px) {
+    .card-outer{
+        height: 5rem;
+        width: 16rem;
+        /* border: 1px solid rgb(38, 41, 245); */
+    }
+}
 @media (min-width: 1280px) {
     .card-outer{
         height: 5rem;
-        width: 18rem;
-        /* border: 1px solid rgb(86, 81, 187); */
+        width: 16rem;
+        /* border: 1px solid rgb(38, 41, 245); */
     }
 }
 
@@ -229,7 +236,7 @@
     .card-outer{
         height: 5.2rem;
         width: 18rem;
-        /* border: 1px solid rgb(86, 81, 187); */
+        /* border: 1px solid rgb(38, 41, 245); */
     }
     
     .logo-img{
@@ -252,7 +259,7 @@
     .card-outer{
         height: 5.2rem;
         width: 18rem;
-        /* border: 1px solid rgb(86, 81, 187); */
+        /* border: 1px solid rgb(38, 41, 245); */
     }
     
     .logo-img{
@@ -273,9 +280,9 @@
 }
 @media (min-width: 1600px) {
     .card-outer{
-        height: 5.2rem;
-        width: 18rem;
-        /* border: 1px solid rgb(86, 81, 187); */
+        height: 5.5rem;
+        width: 16rem;
+        /* border: 1px solid rgb(38, 41, 245); */
     }
 
     .logo-img{
