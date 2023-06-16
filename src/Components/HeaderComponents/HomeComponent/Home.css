@@ -28,6 +28,7 @@
     /* background-color:  #88a8ff; */
 border: 1px solid transparent;
 /* border-radius: 15px; */
+ /* border: 1px solid blue; */
 
 
 
@@ -43,6 +44,7 @@ flex-direction: column;
 flex-wrap: nowrap;
 /* align-items: center; */
 justify-content: center ;
+overflow: hidden;
 }
 
 
@@ -78,7 +80,7 @@ justify-content: center ;
     height: 100%;
     width: 100%;
     border-left: 2px solid #1148cc;
-    background-color:  #88a8ff;
+    background-color:  #14192F;
     animation: textAnimation 5s steps(18) infinite;
 }
 @keyframes  textAnimation {
@@ -124,7 +126,8 @@ justify-content: center ;
         color: #0336ac;
     }
  .home-btns:hover{
-            box-shadow: #376eee 0px 1px 2px;
+    border: 1px solid transparent;
+    box-shadow: #080808 0px 1px 6px;
         }
         .home-img{
             height: 25rem ;
