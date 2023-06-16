@@ -21,6 +21,7 @@
     /* border: 1px solid blue; */
     height: auto;
     width: 40rem;
+    overflow: hidden;
     }
     
     
@@ -46,31 +47,32 @@
         padding: 0rem 0.2rem ;
         
     }
+ 
     .sec-text:before {
-        transform: rotate(180deg);
-        background-color: #14192f;
-        animation: textAnimation 3s infinite;
-        animation-direction: alternate-reverse;
-        
+      border-left: none;
+      border-left: 2px solid #1148cc;
+      background-color: #14192f;
+      /* background-color:  #dce3f7; */
+      animation: textAnimation 7s steps(18) infinite;
+      animation-delay: 0.1s;
+    }
+    @keyframes textAnimation {
+      40%,
+      60% {
+        left: 100%;
       }
-      @keyframes textAnimation {
-        0% {
-          width: 100%;
-        }
-        25% {
-          width: 75%;
-        }
-        50% {
-          width: 50%;
-        }
-        75% {
-          width: 25%;
-        }
-        100% {
-          width: 0%;
-        }
+      100% {
+        left: 0%;
       }
+    }
 
+    .home-btns{
+     font-size: 2rem;
+    }
+    
+    .home-img{
+      height: 20rem ;
+  }
 
       .home-btns{
        font-size: 2rem;
@@ -96,10 +98,7 @@
         height: auto;
         width: 90%;
         background-color: transparent;
-    -webkit-backdrop-filter: none;
-    backdrop-filter: none;
-    box-shadow: none;
-    justify-content: center;
+       
     /* border: 1px solid red; */
     
     }
@@ -108,6 +107,7 @@
     /* border: 1px solid blue; */
     height: auto;
     width: 40rem;
+    overflow: hidden;
     }
     
     
@@ -133,31 +133,32 @@
         padding: 0rem 0.2rem ;
         
     }
+  
     .sec-text:before {
-        transform: rotate(180deg);
-        background-color: #14192f;
-        animation: textAnimation 3s infinite;
-        animation-direction: alternate-reverse;
-        
+      border-left: none;
+      border-left: 2px solid #1148cc;
+      background-color: #14192f;
+      /* background-color:  #dce3f7; */
+      animation: textAnimation 7s steps(18) infinite;
+      animation-delay: 0.1s;
+    }
+    @keyframes textAnimation {
+      40%,
+      60% {
+        left: 100%;
       }
-      @keyframes textAnimation {
-        0% {
-          width: 100%;
-        }
-        25% {
-          width: 75%;
-        }
-        50% {
-          width: 50%;
-        }
-        75% {
-          width: 25%;
-        }
-        100% {
-          width: 0%;
-        }
+      100% {
+        left: 0%;
       }
+    }
 
+    .home-btns{
+     font-size: 2rem;
+    }
+    
+    .home-img{
+      height: 20rem ;
+  }
 
       .home-btns{
        font-size: 2rem;
@@ -194,6 +195,7 @@
     /* border: 1px solid blue; */
     height: 16rem;
     width: 40rem;
+    overflow: hidden;
     }
     
     
@@ -215,38 +217,32 @@
         text-align: center;
     }
     
-    .sec-text{
+      .sec-text{
         position: relative;
-        font-size: 1.1rem;
+        font-size: 1.3rem;
         color:#1148cc;
         padding: 0rem 0.2rem ;
+       
         
     }
-    .sec-text:before {
-        transform: rotate(180deg);
+     
+      .sec-text:before {
+        border-left: none;
+        border-left: 2px solid #1148cc;
         background-color: #14192f;
-        animation: textAnimation 3s infinite;
-        animation-direction: alternate-reverse;
-        
+        /* background-color:  #dce3f7; */
+        animation: textAnimation 7s steps(18) infinite;
+        animation-delay: 0.1s;
       }
       @keyframes textAnimation {
-        0% {
-          width: 100%;
-        }
-        25% {
-          width: 75%;
-        }
-        50% {
-          width: 50%;
-        }
-        75% {
-          width: 25%;
+        40%,
+        60% {
+          left: 100%;
         }
         100% {
-          width: 0%;
+          left: 0%;
         }
       }
-
 
       .home-btns{
        font-size: 2rem;
@@ -282,6 +278,7 @@
     /* border: 1px solid blue; */
     height: auto;
     width: 40rem;
+    overflow: hidden   ;
     }
     
     
@@ -311,7 +308,7 @@
      
       .sec-text:before {
         border-left: none;
-        border-right: 2px solid #1148cc;
+        border-left: 2px solid #1148cc;
         background-color: #14192f;
         /* background-color:  #dce3f7; */
         animation: textAnimation 7s steps(18) infinite;
@@ -363,6 +360,7 @@
     /* border: 1px solid blue; */
     height: auto;
     width: 20rem;
+    overflow: hidden;
     }
     
     
@@ -392,7 +390,7 @@
      
       .sec-text:before {
         border-left: none;
-        border-right: 2px solid #1148cc;
+        border-left: 2px solid #1148cc;
         background-color: #14192f;
         /* background-color:  #dce3f7; */
         animation: textAnimation 7s steps(18) infinite;
@@ -443,6 +441,7 @@
     /* border: 1px solid blue; */
     height: auto;
     width: 20rem;
+    overflow: hidden;
     }
     
     
@@ -472,7 +471,7 @@
      
       .sec-text:before {
         border-left: none;
-        border-right: 2px solid #1148cc;
+        border-left: 2px solid #1148cc;
         background-color: #14192f;
         /* background-color:  #dce3f7; */
         animation: textAnimation 7s steps(18) infinite;
@@ -526,6 +525,7 @@
     height: auto;
     width: 20rem;
     padding: 1rem 0rem;
+    overflow: hidden;
     }
     
     
@@ -537,7 +537,7 @@
         
     }
     .first-text{
-        font-size: 1.9rem;
+        font-size: 2rem;
         color: #2767fc;
         /* display: none; */
     }
@@ -547,7 +547,7 @@
     
     .sec-text{
         position: relative;
-        font-size: 1.2rem;
+        font-size: 1.5rem;
         color:#1148cc;
         padding: 0rem 0.2rem ;
         
@@ -555,7 +555,7 @@
      
       .sec-text:before {
         border-left: none;
-        border-right: 2px solid #1148cc;
+        border-left: 2px solid #1148cc;
         background-color: #14192f;
         /* background-color:  #dce3f7; */
         animation: textAnimation 7s steps(18) infinite;
@@ -576,7 +576,7 @@
       }
       
       .home-img{
-        height:22rem ;
+        height:24rem ;
     }
 }
 
