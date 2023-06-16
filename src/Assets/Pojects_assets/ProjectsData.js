@@ -18,7 +18,7 @@ export const ProjectHelper = [
         id:"10P2" ,
         imgs: Sparkle ,
         name:"Landing Page " ,
-        V_URL: "",
+        V_URL: "sparkel.netlify.app",
         G_URL : "https://github.com/Ashita-23/sparkle-app",
         text : "Landing page for an Event Organizer Company. Created by using React | Javascript | JSX | CSS | HTML | Mock Data API." ,
     } ,
