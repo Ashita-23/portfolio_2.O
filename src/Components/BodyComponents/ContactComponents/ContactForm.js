@@ -28,7 +28,6 @@ const OnSubmitAction = (e)=>{
         SendEmail()
         setSendAlert(true)
        
-        
     }
 }
 const FormValidation = (value)=>{
@@ -71,10 +70,10 @@ const FormValidation = (value)=>{
             <h1 className="form-heding">Get in touch  </h1>
                     <p className={sendAlert ? "showAlert":" showAlert hideAlert"}>Thank you ! {form.senderName} I will contact you as soon as posible.</p>
                     <lable className="lable">Name</lable>
-                        <input type="text" className="input-text" placeholder="jhon" name="senderName" value={form.senderName} onChange={(e)=>InputHandler(e)} />
+                        <input type="text" className="input-text"  name="senderName" value={form.senderName} onChange={(e)=>InputHandler(e)} />
                         <p className="form-error">{formErrors.senderName}</p>
                     <lable className="lable">E-Mail</lable>
-                        <input type="email" className="input-text" placeholder="jhon@gmail.com" name="senderEmail" value={form.senderEmail} onChange={(e)=>InputHandler(e)} />
+                        <input type="email" className="input-text"  name="senderEmail" value={form.senderEmail} onChange={(e)=>InputHandler(e)} />
                         <p className="form-error">{formErrors.senderEmail}</p>
                            
                     <lable className="lable">Message</lable>
