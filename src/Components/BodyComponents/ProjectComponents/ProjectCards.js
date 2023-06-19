@@ -3,7 +3,7 @@ import "./ProjectCards.css"
 import "./ProjectsCardsMedia.css"
 
 const ProjectCards = ({ProjectHelper}) =>{
-    // console.log(ProjectHelper)
+    console.log(ProjectHelper.V_URL)
     return(<>
   <div className="pro-card-outer">
   <img src={ProjectHelper.imgs} className="pro-img"  alt="project"/>
