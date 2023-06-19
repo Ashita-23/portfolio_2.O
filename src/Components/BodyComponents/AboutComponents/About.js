@@ -15,12 +15,11 @@ const About = () => {
         <div className="about-intro">
           <h1 className="about-title">About Me </h1>
           <p className="about-text">
-            Self taught Frontend Developer.I had complited my graduation in Commerce.I have intermediate level of skills in React|
+            Self taught Frontend Developer.I had complited my graduation in Commerce.I have intermediate level of skill in React|
             Javascript| GitAndGithub| JSX| Tailwind| Bootstrap|   Css| Html.
           </p>
           <p className="about-text">
-            I had created multiple projects some of those are Landing page|
-            Swiggy clone| Portpolio web sites.I also haeve beginner level skills in
+            I also have beginner level skill in
             React-Router and Redux.
           </p>
           <button className="resume-btn">
