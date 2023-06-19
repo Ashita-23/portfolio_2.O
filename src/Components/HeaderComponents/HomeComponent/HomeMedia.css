@@ -1319,9 +1319,12 @@ backdrop-filter: none;
 
   .home-img {
     height: 18rem;
+    /* position: relative; */
     /* border: 1px solid red; */
   }
 
+  
+ 
   .home-btn-group {
     padding: 0.5rem;
     /* border: 1px solid green; */

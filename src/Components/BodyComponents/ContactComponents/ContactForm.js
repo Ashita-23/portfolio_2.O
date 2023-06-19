@@ -68,7 +68,7 @@ const FormValidation = (value)=>{
             <div className="contact-inner" >
                 <form action="" className="form" onSubmit={OnSubmitAction}>
             <h1 className="form-heding">Get in touch  </h1>
-                    <p className={sendAlert ? "showAlert":" showAlert hideAlert"}>Thank you ! {form.senderName} I will contact you as soon as posible.</p>
+                    <p className={sendAlert ? "showAlert":" showAlert hideAlert"}>Thank you ! {form.senderName} I will contact you asa posible.</p>
                     <lable className="lable">Name</lable>
                         <input type="text" className="input-text"  name="senderName" value={form.senderName} onChange={(e)=>InputHandler(e)} />
                         <p className="form-error">{formErrors.senderName}</p>
@@ -79,11 +79,18 @@ const FormValidation = (value)=>{
                     <lable className="lable">Message</lable>
                         <textarea type="text" className="input-textarea" placeholder="Type some thing ....." name="senderText" value={form.senderText} onChange={(e)=>InputHandler(e)} />
                 
-                    <lable className="lable">Send</lable>
-                        <input type="submit" className="input-submit" />
+                    {/* <lable className="lable">Send</lable> */}
+                        <input type="submit" className="input-submit"/>
                 </form>
                     <figure className="contact-image-outer">
                         <img src={ Contactus } alt="contact" className="contact-image" />
+                        <div className="form-btn-group">
+            <button className="home-btn">
+           <a href="https://github.com/Ashita-23" target="blank"><i className="fa-brands fa-github home-btns"></i></a></button> 
+            <button className="home-btn">
+           <a href="https://www.linkedin.com/in/ashita-k-0bb800248/" target="blank"> <i className="fa-brands fa-linkedin-in home-btns"></i></a></button>
+            </div>
+
                     </figure>
             </div>
         </div>

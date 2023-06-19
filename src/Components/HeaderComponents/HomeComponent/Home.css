@@ -7,7 +7,7 @@
     flex-wrap: nowrap;
     align-items: center;
     justify-content: center ;
-    /* background-color:  #101426; */
+    /* background-color:  #fdfdff; */
     background-color:  #14192F;
     position: relative;
   border: none;
@@ -114,6 +114,7 @@ overflow: hidden;
     align-items: center;
     font-size: 1.8rem;
     padding: 0.4rem 0.5rem;
+    /* border: 1px solid red; */
     border: 1px solid transparent;
         border-radius: 5px;
       

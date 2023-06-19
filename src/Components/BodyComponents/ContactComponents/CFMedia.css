@@ -183,7 +183,7 @@
         .contact-inner{
             margin: 3.5rem 0rem;
         height: auto;
-        width: 80%;
+        width: 85%;
         padding:1rem 0rem;
         /* border: 1px solid red; */
         border: 1px solid rgb(31, 33, 133);
@@ -259,6 +259,7 @@
         }   
 }
 
+
 @media (min-width: 481px) {
     .contact-outer{
         height: auto;
@@ -269,7 +270,7 @@
         .contact-inner{
             margin: 3.5rem 0rem;
         height: auto;
-        width: 80%;
+        width: 85%;
         padding: 1rem 0rem;
         border: 1px solid rgb(31, 33, 133);
         /* border: 1px solid red; */

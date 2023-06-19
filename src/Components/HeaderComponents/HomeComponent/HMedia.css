@@ -78,6 +78,36 @@
        font-size: 2rem;
       }
       
+      .intro-image{
+  /* border: 1px solid red; */
+  position: relative;
+  overflow: hidden;
+
+      }
+
+      .intro-image::before{
+      position: absolute;
+        content: " ";
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        /* background-color: red; */
+        background-color:  #14192F;
+        animation: homeBG 3s 1 alternate forwards;
+      }
+
+
+      @keyframes  homeBG {
+        0%{
+          left: 10%;
+        }
+      60%,80% ,  100%{
+          left: 100%;
+          background-color: transparent;
+        }
+      }
+
       .home-img{
         height: 16rem ;
     }
