@@ -27,7 +27,7 @@ export const ProjectHelper = [
         id:"10C3" ,
         imgs:Portfolio ,
         name:"Portfolio" ,
-        V_URL: "https://ashita-portfolio.vercel.app/",
+        V_URL: "https://ashita-portfolio.vercel.app",
         G_URL : "https://github.com/Ashita-23/portfolio_2.O",
         text : " Personal portfolio . Created by using React | Javascript | JSX | CSS | HTML . " ,
     } ,
@@ -47,26 +47,9 @@ export const ProjectHelper = [
     //     url : "https://react.dev/"
     // } ,
   
-    // {
-    //     id:"10F" ,
-    //      imgs:ImageName ,
-        // name:"" ,
-        // V_URL: "",
-        // G_URL : "",
-    // } ,
-    // {
-    //     id:"10G" ,
-    //      imgs:ImageName ,
-        // name:"" ,
-        // V_URL: "",
-        // G_URL : "",
-    // } ,
-    // {
-    //     id:"10H" ,
-    //      imgs:ImageName ,
-        // name:"" ,
-        // V_URL: "",
-        // G_URL : "",
-    // } ,
+    
+   
+
+   
 
 ]
