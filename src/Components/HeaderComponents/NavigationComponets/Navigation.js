@@ -1,10 +1,9 @@
 import "./Navigation.css"
 import "./NavigationMedia.css"
-import { IsUserOnline } from "../../../Assets/ProjectFunctions/IsUserOnline"
+
 
 const Navigation = () => {
-const IsOnline = IsUserOnline()
-if(!IsOnline) return alert("your internet connection is gone!")
+
     return(<>
      <nav className="nav-outer">
         <ul className="link-list">
