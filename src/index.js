@@ -1,28 +1,29 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
-import Navigation from './Components/HeaderComponents/NavigationComponets/Navigation';
-import Home from './Components/HeaderComponents/HomeComponent/Home'
-import About from './Components/BodyComponents/AboutComponents/About';
-import SkillCounter from './Components/BodyComponents/SkillComponents/SkillCounter';
-import ProjectCounter from './Components/BodyComponents/ProjectComponents/ProjectCounter';
-import Contact from './Components/BodyComponents/ContactComponents/ContactForm';
-import Footer from './Components/FooterComponents/Footer';
-
+// import Navigation from './Components/HeaderComponents/NavigationComponets/Navigation';
+// import Home from './Components/HeaderComponents/HomeComponent/Home'
+// import About from './Components/BodyComponents/AboutComponents/About';
+// import SkillCounter from './Components/BodyComponents/SkillComponents/SkillCounter';
+// import ProjectCounter from './Components/BodyComponents/ProjectComponents/ProjectCounter';
+// import Contact from './Components/BodyComponents/ContactComponents/ContactForm';
+// import Footer from './Components/FooterComponents/Footer';
+import App from './App';
 import reportWebVitals from './reportWebVitals';
+
 
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    {/* <App /> */}
-    <Navigation></Navigation>
-    <Home></Home>
-    <About></About>
-    <SkillCounter></SkillCounter>
-    <ProjectCounter></ProjectCounter>
-    <Contact></Contact>
-    <Footer></Footer>
+    <App />
+    {/* <Navigation></Navigation> */}
+    {/* <Home></Home> */}
+    {/* <About></About> */}
+    {/* <SkillCounter></SkillCounter> */}
+    {/* <ProjectCounter></ProjectCounter> */}
+    {/* <Contact></Contact> */}
+    {/* <Footer></Footer> */}
   </React.StrictMode>
 );
 
