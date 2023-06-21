@@ -88,7 +88,7 @@ const FormValidation = (value)=>{
             <button className="home-btn">
            <a href="https://github.com/Ashita-23" target="blank"><i className="fa-brands fa-github home-btns"></i></a></button> 
             <button className="home-btn">
-           <a href="https://www.linkedin.com/in/ashita-k-0bb800248/" target="blank"> <i className="fa-brands fa-linkedin-in home-btns"></i></a></button>
+           <a href="https://www.linkedin.com/in/ashita-kr/" target="blank"> <i className="fa-brands fa-linkedin-in home-btns"></i></a></button>
             </div>
 
                     </figure>
