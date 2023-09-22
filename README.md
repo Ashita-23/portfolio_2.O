@@ -6,7 +6,7 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 #This project is created on  react (Create React App)
 
-### Thinks that  I had used for this project are given below :
+### Things that  I had used for this project are given below :
 
 React.js--
 
