@@ -5,7 +5,8 @@ import javascript from "./javascript.png"
 import react from "./react.png"
 import git from "./gitHub.png"
 import tailwind from "./tailwindCss.png"
-import next from "./Nextjs.png"
+import RRouter from "./reactRD2.png"
+import RRedux from "./reduxlogo.png"
 
 
 export const skillsName = [
@@ -55,6 +56,21 @@ export const skillsName = [
             name:"TAILWIND" ,
             url : "https://tailwindcss.com/"
         } ,
+        {
+            id:"10J" ,
+            imgs:RRedux ,
+            name:"React Redux" ,
+            url : "https://nextjs.org/"
+        } ,
+        {
+            id:"10I" ,
+            imgs:RRouter ,
+            name:"React Router" ,
+            url : "https://nextjs.org/"
+        } ,
+    
+     
+    
         // {
         //     id:"10H" ,
         //     imgs:next ,
