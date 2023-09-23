@@ -472,7 +472,7 @@
   }
 
   .project-display {
-    /* border: 1px solid red;  */
+    border: 1px solid red; 
     width: 68vw;
     flex-direction: row;
     justify-content: space-evenly;

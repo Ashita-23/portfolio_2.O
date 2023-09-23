@@ -40,6 +40,7 @@
        flex-direction: row;
        flex-wrap: wrap;
        align-items: center;
+       /* justify-content: space-evenly; */
        /* background-color: #14192f; */
        /* border: 1px solid red; */
        background-color: transparent;

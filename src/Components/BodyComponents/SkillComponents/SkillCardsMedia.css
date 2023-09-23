@@ -280,8 +280,8 @@
 }
 @media (min-width: 1600px) {
     .card-outer{
-        height: 5.5rem;
-        width: 16rem;
+        height: 5.8rem;
+        width: 18rem;
         /* border: 1px solid rgb(38, 41, 245); */
     }
 
@@ -294,7 +294,7 @@
     padding: 0.5rem;
     }
     .title{
-        font-size: 1.3rem;
+        font-size: 1.2rem;
         font-weight: 400;
         letter-spacing: 1px;
         /* border-bottom: 1px solid white; */
