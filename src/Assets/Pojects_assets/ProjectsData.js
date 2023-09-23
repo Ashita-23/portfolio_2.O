@@ -1,7 +1,8 @@
 
 import Sparkle from "./Sparkle.gif"
 import Foodies from "./Swigyy.gif"
-import Portfolio from "./Portfolio.gif"
+import Portfolio from "./port.gif"
+import UTClone from "./Utube.gif"
 
 
 
@@ -12,7 +13,7 @@ export const ProjectHelper = [
         name:"Foodies(Swiggy Clone )",
         V_URL: "https://github.com/Ashita-23/Swiggy_Clone_Repo",
         G_URL : "https://github.com/Ashita-23/Swiggy_Clone_Repo",
-        text : "Swiggy Clone App is a single-page application(SPA). Created by using  React | Redux | React-Router | Javascript | JSX | CSS | HTML | Swiggys Public API . " ,
+        text : "Swiggy Clone App is a single-page food ordering  application(SPA).  " ,
     } ,
     {
         id:"10B2" ,
@@ -20,7 +21,7 @@ export const ProjectHelper = [
         name:"Landing Page " ,
         V_URL: "https://sparkel.netlify.app/",
         G_URL : "https://github.com/Ashita-23/sparkle-app",
-        text : "Landing page for an Event Organizer Company. Created by using React | Javascript | JSX | CSS | HTML | Mock Data API." ,
+        text : "Landing page for an Event Organizer Company. " ,
     } ,
   
     {
@@ -29,16 +30,17 @@ export const ProjectHelper = [
         name:"Portfolio" ,
         V_URL: "https://ashita-portfolio.vercel.app",
         G_URL : "https://github.com/Ashita-23/portfolio_2.O",
-        text : " Personal portfolio . Created by using React | Javascript | JSX | CSS | HTML . " ,
+        text : "My personal portfolio .  " ,
     } ,
 
-    // {
-    //     id:"10D" ,
-    //      imgs:ImageName ,
-        // name:"" ,
-        // V_URL: "",
-        // G_URL : "",
-    // } ,
+    {
+        id:"10D" ,
+         imgs:UTClone,
+        name:"You Tube Clone" ,
+        V_URL: "https://github.com/Ashita-23/YouTube_Clone_Repo",
+        G_URL : "https://github.com/Ashita-23/YouTube_Clone_Repo",
+        text : "You Tube Clone App is a single-page video streaming  application(SPA).  " ,
+    } ,
 
     // {
     //     id:"10E" ,
