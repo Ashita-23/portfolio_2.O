@@ -24,10 +24,14 @@ const InputHandler = (e)=>{
 const OnSubmitAction = (e)=>{
     e.preventDefault()
     setFormErrors(FormValidation(form))
-    if(form.senderName !== " " || form.senderEmail !== " "){
+    if(form.senderName !== " " && form.senderEmail !== " "){
         SendEmail()
         setSendAlert(true)
        
+    }
+    if(sendAlert !== false){
+        
+        setForm(initialForm)
     }
 }
 const FormValidation = (value)=>{
@@ -77,7 +81,7 @@ const FormValidation = (value)=>{
                         <p className="form-error">{formErrors.senderEmail}</p>
                            
                     <lable className="lable">Message</lable>
-                        <textarea type="text" className="input-textarea" placeholder="Type some thing ....." name="senderText" value={form.senderText} onChange={(e)=>InputHandler(e)} />
+                        <textarea type="text" className="input-textarea" name="senderText" value={form.senderText} onChange={(e)=>InputHandler(e)} />
                 
                     {/* <lable className="lable">Send</lable> */}
                         <input type="submit" className="input-submit"/>
