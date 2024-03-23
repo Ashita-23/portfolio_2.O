@@ -5,7 +5,7 @@ import hashtagImg  from '../../../Assets/Component_images/hashTag.png'
 import { skillsName } from '../../../Assets/Skills_assets/skillsData';
 
 const SkillCounter = () => {
-  // console.log(skillsName)
+ 
   return (
     <>
       <div className="skill-counter" id="skills">
