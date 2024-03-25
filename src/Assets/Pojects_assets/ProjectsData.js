@@ -46,8 +46,8 @@ export const ProjectHelper = [
         id:"10E" ,
          imgs:Netflix,
         name:"NetFlix Clone" ,
-        V_URL: "https://github.com/Ashita-23/Netflix_Clone",
-        G_URL : "https://github.com/Ashita-23/Netflix_Clone",
+        V_URL: "https://netflix-clone-2-lake.vercel.app",
+        G_URL : "https://github.com/Ashita-23/netflix_clone_2",
         text : "Chalchitra (Netflix Clone App) is a single-page video streaming  application(SPA).  " ,
     } ,
 
