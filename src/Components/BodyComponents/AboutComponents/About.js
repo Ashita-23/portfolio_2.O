@@ -1,7 +1,7 @@
 import "./About.css";
 import "./AMedia.css";
 import DummyUser from "../../../Assets/Component_images/dummyUser.jpg";
-import Resume from "../../../Assets/Component_images/aashitaFD.pdf";
+import Resume from "../../../Assets/Component_images/ashitaFD.pdf";
 
 const About = () => {
   return (

@@ -2,7 +2,7 @@
 import Sparkle from "./CateringService.gif"
 import Foodies from "./Orderfood.gif"
 import Portfolio from "./port.gif"
-import UTClone from "./VideoTutorial.gif"
+// import UTClone from "./VideoTutorial.gif"
 import Netflix from "./MovieNight.gif"
 
 
@@ -12,7 +12,7 @@ export const ProjectHelper = [
         id:"10P1" ,
         imgs:Foodies,
         name:"Foodies(Swiggy Clone )",
-        V_URL: "https://github.com/Ashita-23/SwiggyClone0.2",
+        V_URL: "https://foodies-xi-nine.vercel.app/",
         G_URL : "https://github.com/Ashita-23/SwiggyClone0.2",
         text : "Swiggy Clone App is a single-page food ordering  application(SPA).  " ,
     } ,
@@ -34,14 +34,14 @@ export const ProjectHelper = [
         text : "My personal portfolio .  " ,
     } ,
 
-    {
-        id:"10D" ,
-         imgs:UTClone,
-        name:"You Tube Clone" ,
-        V_URL: "https://you-tube-clone-repo.vercel.app/",
-        G_URL : "https://github.com/Ashita-23/YouTube_Clone_Repo",
-        text : "You Tube Clone App is a single-page video streaming  application(SPA).  " ,
-    } ,
+    // {
+    //     id:"10D" ,
+    //      imgs:UTClone,
+    //     name:"You Tube Clone" ,
+    //     V_URL: "https://you-tube-clone-repo.vercel.app/",
+    //     G_URL : "https://github.com/Ashita-23/YouTube_Clone_Repo",
+    //     text : "You Tube Clone App is a single-page video streaming  application(SPA).  " ,
+    // } ,
     {
         id:"10E" ,
          imgs:Netflix,
