@@ -1,5 +1,5 @@
 
-import Sparkle from "./CateringService.gif"
+import AiBrain from "./landingPage.gif"
 import Foodies from "./Orderfood.gif"
 import Portfolio from "./port.gif"
 // import UTClone from "./VideoTutorial.gif"
@@ -18,11 +18,11 @@ export const ProjectHelper = [
     } ,
     {
         id:"10B2" ,
-        imgs: Sparkle ,
+        imgs: AiBrain ,
         name:"Landing Page " ,
-        V_URL: "https://sparkel.netlify.app/",
-        G_URL : "https://github.com/Ashita-23/sparkle-app",
-        text : "Landing page for an Event Organizer Company. " ,
+        V_URL: "https://ai-brain-landing-page.vercel.app/",
+        G_URL : "https://github.com/Ashita-23/CodeSoft_/tree/master/AiLandingPage",
+        text : "Ai Brain Landing page created , by using  Html,Css,Javscript. " ,
     } ,
   
     {
